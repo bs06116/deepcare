@@ -385,7 +385,7 @@
                                             </div> -->
 
 
-                                            <div class="col-12 question-div  " >
+                                            <div class="col-12   " >
                                             <div class="row  " >
                                             <div class="col-2 text-center"  >
                                             <p><input class="form-check-input  fs-4" type="checkbox"
@@ -397,12 +397,12 @@
                                                         id="checkboxNoLabelNo_1" value="no"  name="question_1"  aria-label="..."></p>
                                             </div>
 
-                                            <div class="col-7 text-right" >
+                                            <div class="col-6 text-right" >
                                             <p class="question_1" >
                                             ⸮ هل سبق أن حدثت معك مشكلة أثناء أو بعد علاج الأسنان
                                                 </p>
                                             </div>
-                                            <div class="col-1 " >
+                                            <div class="col-2 " >
                                             <span >-1</span>
                                             </div>
 
@@ -419,13 +419,13 @@
                                             </div>
 
 
-                                            <div class="col-7 text-right" >
+                                            <div class="col-6 text-right" >
                                             <p class="question_2" >
                                             ⸮ هل سبق أن أصبت أو تعاني حاليا من
                                                 </p>
                                             </div>
-                                            <div class="col-1 " >
-                                            <span >2-</span>
+                                            <div class="col-2 " >
+                                            <span >-2</span>
                                             </div>
                                             </div>
                                             <div class="row  " >
@@ -439,13 +439,13 @@
                                                         id="checkboxNoLabelNo_3" value="no"  name="question_3"  aria-label="..."></p>
                                             </div>
 
-                                            <div class="col-7 text-right" >
+                                            <div class="col-6 text-right" >
                                             <p class="question_3" >
                                             أمراض القلب
                                                 </p>
                                             </div>
-                                            <div class="col-1 " >
-                                            <span >3-</span>
+                                            <div class="col-2 " >
+                                            <span >-3</span>
                                             </div>
                                             </div>
                                             <div class="row  " >
@@ -459,13 +459,13 @@
                                                         id="checkboxNoLabelNo_4" value="no"  name="question_4"  aria-label="..."></p>
                                             </div>
 
-                                            <div class="col-7 text-right" >
+                                            <div class="col-6 text-right" >
                                             <p class="question_4" >
                                             إرتفاع ضغط الدم
                                                 </p>
                                             </div>
-                                            <div class="col-1 " >
-                                            <span >4-</span>
+                                            <div class="col-2 " >
+                                            <span >-4</span>
                                             </div>
                                             </div>
                                             <div class="row  " >
@@ -479,13 +479,13 @@
                                                         id="checkboxNoLabelNo_5" value="no"  name="question_5"  aria-label="..."></p>
                                             </div>
 
-                                            <div class="col-7 text-right" >
+                                            <div class="col-6 text-right" >
                                             <p class="question_5" >
                                             إنخفاض ضغط الدم
                                                 </p>
                                             </div>
-                                            <div class="col-1 " >
-                                            <span >5-</span>
+                                            <div class="col-2 " >
+                                            <span >-5</span>
                                             </div>
                                             </div>
                                             <div class="row  " >
@@ -499,13 +499,13 @@
                                                         id="checkboxNoLabelNo_6" value="no"  name="question_6"  aria-label="..."></p>
                                             </div>
 
-                                            <div class="col-7 text-right" >
+                                            <div class="col-6 text-right" >
                                             <p class="question_6" >
                                             الحمى الروماتيزمية
                                                 </p>
                                             </div>
-                                            <div class="col-1 " >
-                                            <span >6-</span>
+                                            <div class="col-2 " >
+                                            <span >-6</span>
                                             </div>
                                             </div>
                                             <div class="row  " >
@@ -519,13 +519,13 @@
                                                         id="checkboxNoLabelNo_7" value="no"  name="question_7"  aria-label="..."></p>
                                             </div>
 
-                                            <div class="col-7 text-right" >
+                                            <div class="col-6 text-right" >
                                             <p class="question_7" >
                                             فقر الدم
                                                 </p>
                                             </div>
-                                            <div class="col-1 " >
-                                            <span >7-</span>
+                                            <div class="col-2 " >
+                                            <span >-7</span>
                                             </div>
                                             </div>
                                             <div class="row  " >
@@ -539,13 +539,13 @@
                                                         id="checkboxNoLabelNo_8" value="no"  name="question_8"  aria-label="..."></p>
                                             </div>
 
-                                            <div class="col-7 text-right" >
+                                            <div class="col-6 text-right" >
                                             <p class="question_8" >
                                             أمراض الدم
                                                 </p>
                                             </div>
-                                            <div class="col-1 " >
-                                            <span >8-</span>
+                                            <div class="col-2 " >
+                                            <span >-8</span>
                                             </div>
                                             </div>
                                             <div class="row  " >
@@ -559,13 +559,13 @@
                                                         id="checkboxNoLabelNo_9" value="no"  name="question_9"  aria-label="..."></p>
                                             </div>
 
-                                            <div class="col-7 text-right" >
+                                            <div class="col-6 text-right" >
                                             <p class="question_9" >
                                             أمراض الغدة الدرقية الصفراء
                                                 </p>
                                             </div>
-                                            <div class="col-1 " >
-                                            <span >9-</span>
+                                            <div class="col-2 " >
+                                            <span >-9</span>
                                             </div>
                                             </div>
                                             <div class="row  " >
@@ -579,13 +579,13 @@
                                                         id="checkboxNoLabelNo_11" value="no"  name="question_10"  aria-label="..."></p>
                                             </div>
 
-                                            <div class="col-7 text-right" >
+                                            <div class="col-6 text-right" >
                                             <p class="question_10" >
                                             الكبد الوبائي
                                                 </p>
                                             </div>
-                                            <div class="col-1 " >
-                                            <span >10-</span>
+                                            <div class="col-2 " >
+                                            <span >-10</span>
                                             </div>
                                             </div>
                                             <div class="row  " >
@@ -599,13 +599,13 @@
                                                         id="checkboxNoLabelNo_11" value="no"  name="question_11"  aria-label="..."></p>
                                             </div>
 
-                                            <div class="col-7 text-right" >
+                                            <div class="col-6 text-right" >
                                             <p class="question_11" >
                                             مرض السكر
                                                 </p>
                                             </div>
-                                            <div class="col-1 " >
-                                            <span >11-</span>
+                                            <div class="col-2 " >
+                                            <span >-11</span>
                                             </div>
                                             </div>
                                             <div class="row  " >
@@ -619,13 +619,13 @@
                                                         id="checkboxNoLabelNo_12" value="no"  name="question_12"  aria-label="..."></p>
                                             </div>
 
-                                            <div class="col-7 text-right" >
+                                            <div class="col-6 text-right" >
                                             <p class="question_12" >
                                             أي من أفرد العائلة تعرض لمرض السكر
                                                 </p>
                                             </div>
-                                            <div class="col-1 " >
-                                            <span >12-</span>
+                                            <div class="col-2 " >
+                                            <span >-12</span>
                                             </div>
                                             </div>
                                             <div class="row  " >
@@ -639,13 +639,13 @@
                                                         id="checkboxNoLabelNo_13" value="no"  name="question_13"  aria-label="..."></p>
                                             </div>
 
-                                            <div class="col-7 text-right" >
+                                            <div class="col-6 text-right" >
                                             <p class="question_13" >
                                             الربو السل
                                                 </p>
                                             </div>
-                                            <div class="col-1 " >
-                                            <span >13-</span>
+                                            <div class="col-2 " >
+                                            <span >-13</span>
                                             </div>
                                             </div>
                                             <div class="row  " >
@@ -659,13 +659,13 @@
                                                         id="checkboxNoLabelNo_14" value="no"  name="question_14"  aria-label="..."></p>
                                             </div>
 
-                                            <div class="col-7 text-right" >
+                                            <div class="col-6 text-right" >
                                             <p class="question_14" >
                                             صعوبة في التنفس
                                                 </p>
                                             </div>
-                                            <div class="col-1 " >
-                                            <span >14-</span>
+                                            <div class="col-2 " >
+                                            <span >-14</span>
                                             </div>
                                             </div>
                                             <div class="row  " >
@@ -679,13 +679,13 @@
                                                         id="checkboxNoLabelNo_15" value="no"  name="question_15"  aria-label="..."></p>
                                             </div>
 
-                                            <div class="col-7 text-right" >
+                                            <div class="col-6 text-right" >
                                             <p class="question_15" >
                                             أمراض الكلى
                                                 </p>
                                             </div>
-                                            <div class="col-1 " >
-                                            <span >15-</span>
+                                            <div class="col-2 " >
+                                            <span >-15</span>
                                             </div>
                                             </div>
                                             <div class="row  " >
@@ -699,13 +699,13 @@
                                                         id="checkboxNoLabelNo_16" value="no"  name="question_16"  aria-label="..."></p>
                                             </div>
 
-                                            <div class="col-7 text-right" >
+                                            <div class="col-6 text-right" >
                                             <p class="question_16" >
                                             التشنج
                                                 </p>
                                             </div>
-                                            <div class="col-1 " >
-                                            <span >16-</span>
+                                            <div class="col-2 " >
+                                            <span >-16</span>
                                             </div>
                                             </div>
                                             <div class="row  " >
@@ -719,13 +719,13 @@
                                                         id="checkboxNoLabelNo_17" value="no"  name="question_17"  aria-label="..."></p>
                                             </div>
 
-                                            <div class="col-7 text-right" >
+                                            <div class="col-6 text-right" >
                                             <p class="question_17" >
                                             الصرع
                                                 </p>
                                             </div>
-                                            <div class="col-1 " >
-                                            <span >17-</span>
+                                            <div class="col-2 " >
+                                            <span >-17</span>
                                             </div>
                                             </div>
                                             <div class="row  " >
@@ -739,13 +739,13 @@
                                                         id="checkboxNoLabelNo_18" value="no"  name="question_18"  aria-label="..."></p>
                                             </div>
 
-                                            <div class="col-7 text-right" >
+                                            <div class="col-6 text-right" >
                                             <p class="question_18" >
                                             الإغماء
                                                 </p>
                                             </div>
-                                            <div class="col-1 " >
-                                            <span >18-</span>
+                                            <div class="col-2 " >
+                                            <span >-18</span>
                                             </div>
                                             </div>
                                             <div class="row  " >
@@ -759,13 +759,13 @@
                                                         id="checkboxNoLabelNo_19" value="no"  name="question_19"  aria-label="..."></p>
                                             </div>
 
-                                            <div class="col-7 text-right" >
+                                            <div class="col-6 text-right" >
                                             <p class="question_19" >
                                             هل لديك حساسية من البنسولين ؟
                                                 </p>
                                             </div>
-                                            <div class="col-1 " >
-                                            <span >19-</span>
+                                            <div class="col-2 " >
+                                            <span >-19</span>
                                             </div>
                                             </div>
                                             <div class="row  " >
@@ -779,13 +779,13 @@
                                                         id="checkboxNoLabelNo_20" value="no"  name="question_20"  aria-label="..."></p>
                                             </div>
 
-                                            <div class="col-7 text-right" >
+                                            <div class="col-6 text-right" >
                                             <p class="question_20" >
                                             هل لديك حساسية من الأدوية ؟
                                                 </p>
                                             </div>
-                                            <div class="col-1 " >
-                                            <span >20-</span>
+                                            <div class="col-2 " >
+                                            <span >-20</span>
                                             </div>
                                             </div>
                                             <div class="row  " >
@@ -799,13 +799,13 @@
                                                         id="checkboxNoLabelNo_21" value="no"  name="question_21"  aria-label="..."></p>
                                             </div>
 
-                                            <div class="col-7 text-right" >
+                                            <div class="col-6 text-right" >
                                             <p class="question_21" >
                                             هل إكتسبت تان ؟
                                                 </p>
                                             </div>
-                                            <div class="col-1 " >
-                                            <span >21-</span>
+                                            <div class="col-2 " >
+                                            <span >-21</span>
                                             </div>
                                             </div>
                                             <div class="row  " >
@@ -819,13 +819,13 @@
                                                         id="checkboxNoLabelNo_22" value="no"  name="question_22"  aria-label="..."></p>
                                             </div>
 
-                                            <div class="col-7 text-right" >
+                                            <div class="col-6 text-right" >
                                             <p class="question_22" >
                                             هل تتعاطى أودية حاليا ؟
                                                 </p>
                                             </div>
-                                            <div class="col-1 " >
-                                            <span >22-</span>
+                                            <div class="col-2 " >
+                                            <span >-22</span>
                                             </div>
                                             </div>
                                             <div class="row  " >
@@ -839,13 +839,13 @@
                                                         id="checkboxNoLabelNo_23" value="no"  name="question_23"  aria-label="..."></p>
                                             </div>
 
-                                            <div class="col-7 text-right" >
+                                            <div class="col-6 text-right" >
                                             <p class="question_23" >
                                             هل سبق لك عمل الليزر؟
                                                 </p>
                                             </div>
-                                            <div class="col-1 " >
-                                            <span >23-</span>
+                                            <div class="col-2 " >
+                                            <span >-23</span>
                                             </div>
                                             </div>
                                             <div class="row  " >
@@ -859,14 +859,14 @@
                                                         id="checkboxNoLabelNo_24" value="no"  name="question_24"  aria-label="..."></p>
                                             </div>
 
-                                            <div class="col-7 text-right" >
+                                            <div class="col-6 text-right" >
                                             <p class="question_24" >
                                             هل لديك تحسس جلدي ؟
 
                                                 </p>
                                             </div>
-                                            <div class="col-1 " >
-                                            <span >24-</span>
+                                            <div class="col-2 " >
+                                            <span >-24</span>
                                             </div>
                                             </div>
                                             <div class="row" style="display: none"  id="question_25">
@@ -880,13 +880,13 @@
                                                         id="checkboxNoLabelNo_25" value="no"  name="question_25"  aria-label="..."></p>
                                             </div>
 
-                                            <div class="col-7 text-right" >
+                                            <div class="col-6 text-right" >
                                             <p class="question_25" >
                                             هل أنتي حامل ؟
                                                 </p>
                                             </div>
-                                            <div class="col-1 " >
-                                            <span >25-</span>
+                                            <div class="col-2 " >
+                                            <span >-25</span>
                                             </div>
                                             </div>
 
@@ -994,7 +994,12 @@
                                                     <span dir="rtl">25-</span>
                                                 </p>
                                             </div> -->
+<<<<<<< HEAD
 
+=======
+>>>>>>> 00ebbff99a57d04a80e0c0e5e48c70050f566bc2
+
+>>>>>>> ca689484f35761426c7b3071f38d1f5bfd020f5e
                                         </div>
 
                                         <div class="row">
@@ -1011,7 +1016,7 @@
 
                                 </div>
                             </div>
-                            <!-- <div class="panel  setup-content" id="step-2">
+                            <div class="panel  setup-content" id="step-2">
                                 <div class="container-fluid">
                                     <div class="row">
                                         <div class="col-12">
@@ -1079,7 +1084,7 @@
                                     </div>
                                 </div>
 
-                            </div> -->
+                            </div>
                             <!-- <div class="row" >
 
                         <div class="col-12 py-4">

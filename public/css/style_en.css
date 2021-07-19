@@ -10,7 +10,7 @@
 }
 .card1 {
     position: relative;
-    top: -7%;
+    top: -4%;
     border-radius: 12px !important;
 }
 .iqrar {
@@ -394,6 +394,9 @@
         top: 135% !important;
         border-radius: 12px !important;
     }
+    .btn{
+        margin-left: 30px;
+    }
 }
 @media (min-width: 992px) {
     #div1 {
@@ -430,6 +433,9 @@
         position: absolute !important;
         top: 140% !important;
         border-radius: 12px !important;
+    }
+    .btn{
+        margin-left: 50px;
     }
 }
 @media (min-width: 1024px) {
@@ -506,7 +512,11 @@
         /* top: 120% !important; */
         border-radius: 12px !important;
     }
+    .btn{
+        margin-left: 70px;
+    }
 }
+
 .message {
     color: #5cb85c;
     float: left;
@@ -517,4 +527,7 @@
 .div-que{
     display: flex;
     flex-direction: column;
+}
+small{
+    font-size: 12px !important;
 }

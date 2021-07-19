@@ -10,7 +10,7 @@
 }
 .card1 {
     position: relative;
-    top: -10%;
+    top: -4%;
     border-radius: 12px !important;
 }
 .iqrar {
@@ -132,7 +132,6 @@
 
     .card1 {
         position: relative;
-        top: -10%;
         border-radius: 12px !important;
     }
     .btn-circle {
@@ -213,6 +212,7 @@
         top: 120% !important;
         border-radius: 12px !important;
     }
+   
 }
 @media (min-width: 321px) {
     #div1 {
@@ -509,4 +509,7 @@
 .message {
     color: #5cb85c;
     float: right;
+}
+small{
+    font-size: 12px !important;
 }

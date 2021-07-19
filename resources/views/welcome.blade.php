@@ -994,12 +994,7 @@
                                                     <span dir="rtl">25-</span>
                                                 </p>
                                             </div> -->
-<<<<<<< HEAD
 
-=======
->>>>>>> 00ebbff99a57d04a80e0c0e5e48c70050f566bc2
-
->>>>>>> ca689484f35761426c7b3071f38d1f5bfd020f5e
                                         </div>
 
                                         <div class="row">

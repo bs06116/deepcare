@@ -3,12 +3,9 @@
             $('.gender').on('change', function() {
                 if ($(this).val() == 'female') {
                     $("#question_25").show();
-                    $("#checkboxNoLabelNo_25").show();
-                    $("#checkboxNoLabelYes_25").show();
+
                 }else{
                     $("#question_25").hide();
-                    $("#checkboxNoLabelNo_25").hide();
-                    $("#checkboxNoLabelYes_25").hide();
                 }
             });
             $("input:checkbox").on('click', function() {

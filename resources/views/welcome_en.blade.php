@@ -839,12 +839,12 @@
                                                         id="checkboxNoLabelNo_24" value="no"  name="question_24"  aria-label="..."></p>
                                             </div>
                                             </div>
-                                            <div class="row  " >
+                                            <div class="row  "  style="display: none" id="question_25" >
                                             <div class="col-1 " >
                                             <span >25-</span>
                                             </div>
                                             <div class="col-7 text-left" >
-                                            <p class="question_25" >
+                                            <p class="question_25"  >
                                             Are you pregnant?
                                                 </p>
                                             </div>

@@ -384,7 +384,7 @@
                                                         id="checkboxNoLabel-25"  value="yes" name="question_25"aria-label="..."></p>  --}}
                                             </div> -->
 
-                                            
+
                                             <div class="col-12 question-div  " >
                                             <div class="row  " >
                                             <div class="col-2 text-center"  >
@@ -396,16 +396,16 @@
                                             <p><input class="form-check-input fs-4" type="checkbox"
                                                         id="checkboxNoLabelNo_1" value="no"  name="question_1"  aria-label="..."></p>
                                             </div>
-                    
+
                                             <div class="col-7 text-right" >
                                             <p class="question_1" >
-                                            ⸮ هل سبق أن حدثت معك مشكلة أثناء أو بعد علاج الأسنان 
+                                            ⸮ هل سبق أن حدثت معك مشكلة أثناء أو بعد علاج الأسنان
                                                 </p>
                                             </div>
                                             <div class="col-1 " >
                                             <span >-1</span>
                                             </div>
-                                          
+
                                             </div>
                                             <div class="row  " >
                                             <div class="col-2 text-center"  >
@@ -417,8 +417,8 @@
                                             <p><input class="form-check-input fs-4" type="checkbox"
                                                         id="checkboxNoLabelNo_2" value="no"  name="question_2"  aria-label="..."></p>
                                             </div>
-                                            
-                                           
+
+
                                             <div class="col-7 text-right" >
                                             <p class="question_2" >
                                             ⸮ هل سبق أن أصبت أو تعاني حاليا من
@@ -438,7 +438,7 @@
                                             <p><input class="form-check-input fs-4" type="checkbox"
                                                         id="checkboxNoLabelNo_3" value="no"  name="question_3"  aria-label="..."></p>
                                             </div>
-                                            
+
                                             <div class="col-7 text-right" >
                                             <p class="question_3" >
                                             أمراض القلب
@@ -458,7 +458,7 @@
                                             <p><input class="form-check-input fs-4" type="checkbox"
                                                         id="checkboxNoLabelNo_4" value="no"  name="question_4"  aria-label="..."></p>
                                             </div>
-                                           
+
                                             <div class="col-7 text-right" >
                                             <p class="question_4" >
                                             إرتفاع ضغط الدم
@@ -478,7 +478,7 @@
                                             <p><input class="form-check-input fs-4" type="checkbox"
                                                         id="checkboxNoLabelNo_5" value="no"  name="question_5"  aria-label="..."></p>
                                             </div>
-                                            
+
                                             <div class="col-7 text-right" >
                                             <p class="question_5" >
                                             إنخفاض ضغط الدم
@@ -498,7 +498,7 @@
                                             <p><input class="form-check-input fs-4" type="checkbox"
                                                         id="checkboxNoLabelNo_6" value="no"  name="question_6"  aria-label="..."></p>
                                             </div>
-                                            
+
                                             <div class="col-7 text-right" >
                                             <p class="question_6" >
                                             الحمى الروماتيزمية
@@ -518,7 +518,7 @@
                                             <p><input class="form-check-input fs-4" type="checkbox"
                                                         id="checkboxNoLabelNo_7" value="no"  name="question_7"  aria-label="..."></p>
                                             </div>
-                                            
+
                                             <div class="col-7 text-right" >
                                             <p class="question_7" >
                                             فقر الدم
@@ -538,7 +538,7 @@
                                             <p><input class="form-check-input fs-4" type="checkbox"
                                                         id="checkboxNoLabelNo_8" value="no"  name="question_8"  aria-label="..."></p>
                                             </div>
-                                            
+
                                             <div class="col-7 text-right" >
                                             <p class="question_8" >
                                             أمراض الدم
@@ -558,7 +558,7 @@
                                             <p><input class="form-check-input fs-4" type="checkbox"
                                                         id="checkboxNoLabelNo_9" value="no"  name="question_9"  aria-label="..."></p>
                                             </div>
-                                            
+
                                             <div class="col-7 text-right" >
                                             <p class="question_9" >
                                             أمراض الغدة الدرقية الصفراء
@@ -578,7 +578,7 @@
                                             <p><input class="form-check-input fs-4" type="checkbox"
                                                         id="checkboxNoLabelNo_11" value="no"  name="question_10"  aria-label="..."></p>
                                             </div>
-                                            
+
                                             <div class="col-7 text-right" >
                                             <p class="question_10" >
                                             الكبد الوبائي
@@ -598,7 +598,7 @@
                                             <p><input class="form-check-input fs-4" type="checkbox"
                                                         id="checkboxNoLabelNo_11" value="no"  name="question_11"  aria-label="..."></p>
                                             </div>
-                                            
+
                                             <div class="col-7 text-right" >
                                             <p class="question_11" >
                                             مرض السكر
@@ -618,10 +618,10 @@
                                             <p><input class="form-check-input fs-4" type="checkbox"
                                                         id="checkboxNoLabelNo_12" value="no"  name="question_12"  aria-label="..."></p>
                                             </div>
-                                            
+
                                             <div class="col-7 text-right" >
                                             <p class="question_12" >
-                                            أي من أفرد العائلة تعرض لمرض السكر 
+                                            أي من أفرد العائلة تعرض لمرض السكر
                                                 </p>
                                             </div>
                                             <div class="col-1 " >
@@ -638,7 +638,7 @@
                                             <p><input class="form-check-input fs-4" type="checkbox"
                                                         id="checkboxNoLabelNo_13" value="no"  name="question_13"  aria-label="..."></p>
                                             </div>
-                                            
+
                                             <div class="col-7 text-right" >
                                             <p class="question_13" >
                                             الربو السل
@@ -658,7 +658,7 @@
                                             <p><input class="form-check-input fs-4" type="checkbox"
                                                         id="checkboxNoLabelNo_14" value="no"  name="question_14"  aria-label="..."></p>
                                             </div>
-                                            
+
                                             <div class="col-7 text-right" >
                                             <p class="question_14" >
                                             صعوبة في التنفس
@@ -678,7 +678,7 @@
                                             <p><input class="form-check-input fs-4" type="checkbox"
                                                         id="checkboxNoLabelNo_15" value="no"  name="question_15"  aria-label="..."></p>
                                             </div>
-                                            
+
                                             <div class="col-7 text-right" >
                                             <p class="question_15" >
                                             أمراض الكلى
@@ -698,7 +698,7 @@
                                             <p><input class="form-check-input fs-4" type="checkbox"
                                                         id="checkboxNoLabelNo_16" value="no"  name="question_16"  aria-label="..."></p>
                                             </div>
-                                            
+
                                             <div class="col-7 text-right" >
                                             <p class="question_16" >
                                             التشنج
@@ -718,7 +718,7 @@
                                             <p><input class="form-check-input fs-4" type="checkbox"
                                                         id="checkboxNoLabelNo_17" value="no"  name="question_17"  aria-label="..."></p>
                                             </div>
-                                            
+
                                             <div class="col-7 text-right" >
                                             <p class="question_17" >
                                             الصرع
@@ -738,7 +738,7 @@
                                             <p><input class="form-check-input fs-4" type="checkbox"
                                                         id="checkboxNoLabelNo_18" value="no"  name="question_18"  aria-label="..."></p>
                                             </div>
-                                            
+
                                             <div class="col-7 text-right" >
                                             <p class="question_18" >
                                             الإغماء
@@ -758,7 +758,7 @@
                                             <p><input class="form-check-input fs-4" type="checkbox"
                                                         id="checkboxNoLabelNo_19" value="no"  name="question_19"  aria-label="..."></p>
                                             </div>
-                                            
+
                                             <div class="col-7 text-right" >
                                             <p class="question_19" >
                                             هل لديك حساسية من البنسولين ؟
@@ -778,7 +778,7 @@
                                             <p><input class="form-check-input fs-4" type="checkbox"
                                                         id="checkboxNoLabelNo_20" value="no"  name="question_20"  aria-label="..."></p>
                                             </div>
-                                            
+
                                             <div class="col-7 text-right" >
                                             <p class="question_20" >
                                             هل لديك حساسية من الأدوية ؟
@@ -798,7 +798,7 @@
                                             <p><input class="form-check-input fs-4" type="checkbox"
                                                         id="checkboxNoLabelNo_21" value="no"  name="question_21"  aria-label="..."></p>
                                             </div>
-                                            
+
                                             <div class="col-7 text-right" >
                                             <p class="question_21" >
                                             هل إكتسبت تان ؟
@@ -818,7 +818,7 @@
                                             <p><input class="form-check-input fs-4" type="checkbox"
                                                         id="checkboxNoLabelNo_22" value="no"  name="question_22"  aria-label="..."></p>
                                             </div>
-                                            
+
                                             <div class="col-7 text-right" >
                                             <p class="question_22" >
                                             هل تتعاطى أودية حاليا ؟
@@ -838,7 +838,7 @@
                                             <p><input class="form-check-input fs-4" type="checkbox"
                                                         id="checkboxNoLabelNo_23" value="no"  name="question_23"  aria-label="..."></p>
                                             </div>
-                                            
+
                                             <div class="col-7 text-right" >
                                             <p class="question_23" >
                                             هل سبق لك عمل الليزر؟
@@ -858,7 +858,7 @@
                                             <p><input class="form-check-input fs-4" type="checkbox"
                                                         id="checkboxNoLabelNo_24" value="no"  name="question_24"  aria-label="..."></p>
                                             </div>
-                                            
+
                                             <div class="col-7 text-right" >
                                             <p class="question_24" >
                                             هل لديك تحسس جلدي ؟
@@ -869,7 +869,7 @@
                                             <span >24-</span>
                                             </div>
                                             </div>
-                                            <div class="row  " >
+                                            <div class="row" style="display: none"  id="question_25">
                                             <div class="col-2 text-center"  >
                                             <p><input class="form-check-input  fs-4" type="checkbox"
                                                         id="checkboxNoLabelNo_25" value="yes" name="question_25"  aria-label="..."  ></p>
@@ -879,7 +879,7 @@
                                             <p><input class="form-check-input fs-4" type="checkbox"
                                                         id="checkboxNoLabelNo_25" value="no"  name="question_25"  aria-label="..."></p>
                                             </div>
-                                           
+
                                             <div class="col-7 text-right" >
                                             <p class="question_25" >
                                             هل أنتي حامل ؟
@@ -994,7 +994,7 @@
                                                     <span dir="rtl">25-</span>
                                                 </p>
                                             </div> -->
-                                            
+
                                         </div>
 
                                         <div class="row">

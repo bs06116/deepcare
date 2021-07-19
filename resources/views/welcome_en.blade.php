@@ -36,14 +36,14 @@
                 <div class="col-4">
                     <div class="language w-75 pt-3 ps-lg-5">
 
-                        {{-- <select class="form-select form-select-md bg-light" aria-label=".form-select-md example">
-                            <option >لغة  </option>
-                            <option value="1">العربی  </option>
-                            <option value="2">English</option>
-                            </select> --}}
+                        <select class="form-select form-select-md bg-light" aria-label=".form-select-md example" onchange="location = this.value;">
+                            <option value="en">English</option>
+
+                            <option value="ar">العربی  </option>
+                            </select>
                     </div>
                 </div>
-                
+
             </div>
         </div>
     </section>
@@ -60,8 +60,7 @@
                         <h5 class="text-white fw-bolder fs-2 ">
                         Dentistry - Cosmetology - Dermatology
                         </h5>
-                        {{-- <p class="pt-3 text-white fs-5">CR : 1010439963</p> --}}
-                    </div>
+                                         </div>
                 </div>
             </div>
         </div>
@@ -88,7 +87,7 @@
                                     <p class="fs-2 fw-bolder"><small> Instructions </small></p>
                                 </div>
 
-                               
+
                                 <div class="stepwizard-step col-xs-2" id="">
                                     <a href="#step-3" type="button" class="btn btn btn-default  btn-circle" disabled="disabled"><i
                                             class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
@@ -99,7 +98,9 @@
                             </div>
                         </div>
                         <form id="main_frm"  role="form mt-5">
-                       
+
+                            <input type="hidden" name="lang" value="<?php echo \Route::current()->uri()?>">
+
 
                                         <?php
 
@@ -111,11 +112,11 @@
                                 <div class="container"  >
                                     <div class="row pe-4 pt-2 " id="form">
                                     <div class="col-4 text-start pe-4 form-group">
-                                            <label for="inputZip" class="control-label pe-2"> The name </label>
+                                            <label for="inputZip" class="control-label pe-2"> Name </label>
                                             <input type="text" name="full_name" class="form-control text-start bg-light"
                                                 maxlength="200" required="required">
                                         </div>
-                                       
+
                                         <div class="col-4 text-start form-group">
                                             <label class="control-label"> Date </label>
                                             <input type="text" readonly value="<?php echo date('Y-m-d')?>" name="frm_date" class="form-control text-start bg-light"
@@ -597,7 +598,7 @@
                                             </div>
                                             <div class="col-6 text-left" >
                                             <p class="question_12" >
-                                            Any member of the family has been diagnosed with diabetes 
+                                            Any member of the family has been diagnosed with diabetes
                                                 </p>
                                             </div>
                                             <div class="col-2"  >
@@ -857,7 +858,7 @@
                                                         id="checkboxNoLabelNo_25" value="no"  name="question_25"  aria-label="..."></p>
                                             </div>
                                             </div>
-                                            
+
                                                 <!-- <p class="question_1" >
                                                 Have you ever had a problem during or after dental treatment?
                                                     <span>-1</span>
@@ -903,7 +904,7 @@
                                                     <span dir="rtl">-11</span>
                                                 </p>
                                                 <p class="question_12">
-                                                Any member of the family has been diagnosed with diabetes 
+                                                Any member of the family has been diagnosed with diabetes
                                                     <span dir="rtl">-12</span>
                                                 </p>
                                                 <p class="question_13">
@@ -943,7 +944,7 @@
                                                     <span dir="rtl">-21</span>
                                                 </p>
                                                 <p class="question_22">
-                                                
+
                                                 ?Are you currently using valleys
                                                     <span dir="rtl">-22</span>
                                                 </p>
@@ -962,9 +963,9 @@
                                                     <span dir="rtl">-25</span>
                                                 </p> -->
                                             </div>
-                                          
+
                                         </div>
-                                        
+
                                         <div class="row">
                                             <div class="col-12 py-4">
                                                 <div class="pe-5">
@@ -1047,7 +1048,7 @@
 
                             </div>
                             <!-- <div class="row" >
-                              
+
                         <div class="col-12 py-4">
                         <div class="pe-5">
                 <button class="btn btn-primary nextBtn pull-right fw-bolder fs-2 w-25" type="button"> التالي  </button>
@@ -1168,127 +1169,8 @@
             </div>
         </div>
     </section>
-    <!-- footer section end here -->
-    <script>
-        $(document).ready(function() {
-            $('.gender').on('change', function() {
-                if ($(this).val() == 'female') {
-                    $("#question_25").show();
-                    $("#checkboxNoLabelNo_25").show();
-                    $("#checkboxNoLabelYes_25").show();
-                }else{
-                    $("#question_25").hide();
-                    $("#checkboxNoLabelNo_25").hide();
-                    $("#checkboxNoLabelYes_25").hide();
-                }
-            });
-            $("input:checkbox").on('click', function() {
-                // in the handler, 'this' refers to the box clicked on
-                var $box = $(this);
+    @include('javascript')
 
-                if ($box.is(":checked")) {
-                    //console.info($box.attr("name"));
-                    // the name of the box is retrieved using the .attr() method
-                    // as it is assumed and expected to be immutable
-                    var group = "input:checkbox[name='" + $box.attr("name") + "']";
-                    // the checked state of the group/box on the other hand will change
-                    // and the current value is retrieved using .prop() method
-                    $(group).prop("checked", false);
-                    $box.prop("checked", true);
-                } else {
-                    $box.prop("checked", false);
-                }
-            });
-            var navListItems = $('div.setup-panel div a'),
-                allWells = $('.setup-content'),
-                allNextBtn = $('.nextBtn');
-
-            allWells.hide();
-
-            navListItems.click(function(e) {
-                e.preventDefault();
-                var $target = $($(this).attr('href')),
-                    $item = $(this);
-
-                if (!$item.hasClass('disabled')) {
-                    navListItems.removeClass('btn-success').addClass('btn-default');
-                    $item.addClass('btn-success');
-                    allWells.hide();
-                    $target.show();
-                    $target.find('input:eq(0)').focus();
-                }
-            });
-
-            allNextBtn.click(function() {
-                var curStep = $(this).closest(".setup-content"),
-                    curStepBtn = curStep.attr("id"),
-                    nextStepWizard = $('div.setup-panel div a[href="#' + curStepBtn + '"]').parent().next()
-                    .children("a"),
-                    curInputs = curStep.find("input[type='text'],input[type='number']"),
-                    isValid = true;
-               //  console.info(curStep);
-                $(".form-group").removeClass("has-error");
-                for (var i = 0; i < curInputs.length; i++) {
-                    //  console.info(curInputs[i].validity.valid);
-                    if (!curInputs[i].validity.valid) {
-                        isValid = false;
-                        $(curInputs[i]).closest(".form-group").addClass("has-error");
-                    }
-                }
-                var j = 1;
-                $("input[name='question_" + j + "']:checked").each(function(index, obj) {
-                    if (this.value === '') {
-
-                    }
-                   // console.info(this.value);
-                    // loop all checked items
-                });
-                // for(let i=1; i<=23 i++){
-
-                // }
-
-                if (isValid) nextStepWizard.removeAttr('disabled').trigger('click');
-            });
-
-            $('div.setup-panel div a.btn-success').trigger('click');
-        });
-    </script>
-    <script type="text/javascript" charset="utf-8">
-        $(document).on('click', '#btnSave', function(event) {
-            event.preventDefault();
-            var phone = $("#phone_number").val();
-            if (phone.length == 10) {
-                $(".fa-spinner").show();
-                  saveData();
-              }
-
-            /* Act on the event */
-
-
-        });
-        var saveData = function() {
-            $.ajax({
-                type: 'POST',
-                url: 'save-frm', //Make sure your URL is correct
-                dataType: 'json', //Make sure your returning data type dffine as json
-                data: $('#main_frm').serialize() + '&_token=<?php echo csrf_token(); ?>',
-                success: function(data) {
-                    $(".fa-spinner").hide();
-                    $(".message").text(data.message)
-                     setTimeout(function(){
-                       window.location.reload();
-                     }, 5000);
-                    console.log(data); //Please share cosnole data
-                    // if(data.msg) //Check the data.msg isset?
-                    // {
-                    //     $("#msg").html(data.msg); //replace html by data.msg
-                    // }
-
-                }
-            });
-        }
-        
-    </script>
 
     <!-- script link end here  -->
 </body>

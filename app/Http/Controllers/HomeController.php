@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use App\Models\User;
 use Illuminate\Support\Facades\DB;
 use Twilio\Rest\Client;
-
+use Illuminate\Support\Facades\Route;
 class HomeController extends Controller
 {
     /**
@@ -32,6 +32,7 @@ class HomeController extends Controller
 
     public function store(Request $request)
     {
+
         try {
             $phone =  $request->phone;
             $language =  $request->language;
@@ -46,6 +47,7 @@ class HomeController extends Controller
             $other_phone =  $request->other_phone;
             $closest_name =  $request->closest_name;
             $about_clinic =  $request->about_clinic;
+            $lang =  $request->lang;
 
             $u = new User;
             $u->phone = $phone;
@@ -71,11 +73,16 @@ class HomeController extends Controller
             }
             $finalResult = DB::table('question_answer')->insert($userQuestionAnswer);
             //$this->sendMessage('Deep care Center',$phone);
+            if($lang == 'en'){
+                $mesasge = 'Thanks you! Form has been submited succfully.';
+            }else{
+                $mesasge = 'شكرا لك
+                تم إرسال النموذج بنجاح';
+            }
             return response()->json([
                 'data' => $finalResult,
-                'message' => 'شكرا لك
-                تم إرسال النموذج بنجاح',
-                'status' => 'true'
+                'message' => $mesasge,
+                'status' => true
             ]);
         } catch (\Exception $e) {
             // Anything that went wrong

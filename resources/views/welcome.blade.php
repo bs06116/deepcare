@@ -77,16 +77,17 @@
                             <div class="stepwizard-row setup-panel">
                                 <div class="col-xs-3 col3"></div>
                                 <div class="stepwizard-step col-xs-2" id="div1">
-                                <a href="#step-1" type="button" class="btn btn-success btn-circle btn-circle1"
+                                    <a href="#step-1" type="button" class="btn btn-success btn-circle btn-circle1"
+                                        disabled="disabled"><i class="fa fa-file-text" aria-hidden="true"></i></a>
+                                    <p class="fs-2 fw-bolder"><small> تعبئة البيانات </small></p>
+                                </div>
+                                <div class="stepwizard-step col-xs-2" id="div2">
+                                <a href="#step-2" type="button" class="btn btn-default btn-circle btn-circle1"
                                         disabled="disabled"><i class="far fa-clipboard-list" aria-hidden="true"></i></a>
                                     <p class="fs-2 fw-bolder"><small> التعليمات </small></p>
                                 </div>
 
-                                <div class="stepwizard-step col-xs-2" id="div2">
-                                    <a href="#step-2" type="button" class="btn btn-default btn-circle btn-circle1"
-                                        disabled="disabled"><i class="fa fa-file-text" aria-hidden="true"></i></a>
-                                    <p class="fs-2 fw-bolder"><small> تعبئة البيانات </small></p>
-                                </div>
+                               
                                 <div class="stepwizard-step col-xs-2" id="div3">
                                     <a href="#step-3" type="button" class="btn btn btn-default  btn-circle" disabled="disabled"><i
                                             class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
@@ -96,76 +97,8 @@
                                 <div class=" col-xs-3"></div>
                             </div>
                         </div>
-                        <form id="main_frm" role="form mt-5">
-                        <div class="panel  setup-content" id="step-1">
-                                <div class="container-fluid">
-                                    <div class="row">
-                                        <div class="col-12">
-                                            <div class="fw-bolder pe-4" dir="rtl">
-                                                <h3> تعليمات الليزر قبل العلاج: </h3>
-                                                <p>
-                                                    تجنب التعرض لأشعة الشمس من 4 إلى 6 أسابيع قبل العلاج
-                                                </p>
-                                                <p>
-                                                    تجنب التقشير- النتف - الشمع
-                                                </p>
-                                                <p>
-                                                    الإخبار بالأمراض الجلدية
-                                                </p>
-                                                <p>
-                                                    عدم تناول أي نوع من أنواع الأدوية وخصوصا الروكتان
-                                                </p>
-                                                <p>
-                                                    حلق المنطقة قبل يوم أو يومين من الليزر وترك منطقة صغيرة
-                                                </p>
-                                                <p>
-                                                    تجنب تسمير المنطقة قبل الجلسة لمدة 6أسابيع والمعروف بالتاننج
-                                                </p>
-                                                <p>
-                                                    ممنوع منعا باتا استخدام حمام البخار والساونا والحمامات المغربية قبل
-                                                    جلسة الليزر بأسبوعان
-                                                </p>
-                                                <p>
-                                                    عدم إستخدام أي نوع كريمات أو معطرات الجسم أو مزيل العرق قبل جلسة
-                                                    الليزر
-
-                                                </p>
-                                            </div>
-                                            <div class="fw-bolder pt-5 pe-4" dir="rtl">
-                                                <h3> تعليمات الليزر بعد العلاج: </h3>
-                                                <p>
-                                                    ممكن حدوث إحمرار أو حروق طفيفة
-                                                </p>
-                                                <p>
-                                                    وضع كمادات باردة لمدة ربع ساعة للتخفيف من الألم والاحمرار
-                                                </p>
-                                                <p>
-                                                    يمكن الإستحمام بعد ساعتين
-                                                </p>
-                                                <p>
-                                                    ضرورة إستخدام مرطبات للجسم والعلاجات الموصوفة من قبل الطبيب
-                                                </p>
-                                                <p>
-                                                    عدم إستخدام كريمات معطرة أو عطور مباشر بعد الجلسة
-                                                </p>
-                                                <p>
-                                                    تجنب النتف – الشمع – التقشيير
-                                                </p>
-                                                <p>
-                                                    ممنوع منعا باتا استخدام حمامات البخار والساونا والحمامات المغربية
-                                                    بعد جلسة الليزر </p>
-
-                                            </div>
-                                            <div class="pe-5 iqrar py-5">
-                                        <button class="btn btn-primary nextBtn pull-right fw-bolder fs-2 w-25"
-                                            type="button"> التالي </button>
-                                    </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
+                        <form id="main_frm"  role="form mt-5">
+                       
 
                                         <?php
 
@@ -173,14 +106,15 @@
                                         $file_number = $result->id+1;
 
                                         ?>
-                            <div class="panel  setup-content p-romve" id="step-2">
-                                <div class="container">
+                            <div class="panel  setup-content p-romve" id="step-1">
+                                <div class="container"  dir="rtl">
                                     <div class="row pe-4 pt-2 " id="form">
-                                        <div class="col-4 text-end form-group">
-                                            <label class="control-label"> رقم الملف </label>
-                                            <input type="text" readonly value="{{$file_number}}" name="file_number" class="form-control text-end bg-light"
-                                                placeholder="رقم الملف  " required="required">
+                                    <div class="col-4 text-end pe-4 form-group">
+                                            <label for="inputZip" class="control-label pe-2"> الإسم </label>
+                                            <input type="text" name="full_name" class="form-control text-end bg-light"
+                                                maxlength="200" required="required">
                                         </div>
+                                       
                                         <div class="col-4 text-end form-group">
                                             <label class="control-label"> تاريخ </label>
                                             <input type="text" readonly value="<?php echo date('Y-m-d')?>" name="frm_date" class="form-control text-end bg-light"
@@ -191,10 +125,10 @@
                                             <input type="text" name="language" class="form-control text-end bg-light"
                                                 placeholder="لغة  " maxlength="200" required="required">
                                         </div> -->
-                                        <div class="col-4 text-end pe-4 form-group">
-                                            <label for="inputZip" class="control-label pe-2"> الإسم </label>
-                                            <input type="text" name="full_name" class="form-control text-end bg-light"
-                                                maxlength="200" required="required">
+                                        <div class="col-4 text-end form-group">
+                                            <label class="control-label"> رقم الملف </label>
+                                            <input type="text" readonly value="{{$file_number}}" name="file_number" class="form-control text-end bg-light"
+                                                placeholder="رقم الملف  " required="required">
                                         </div>
 
                                     </div>
@@ -373,7 +307,7 @@
                                                 <p><input class="form-check-input fs-4" type="checkbox"
                                                         id="checkboxNoLabel-21" value="no" name="question_21" aria-label="..."></p>
                                                 <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabel-22" value="no" name="question_22" aria-label="..."></p>
+                                                        id="checkboxNoLabel-22" value="no" name="question_22" aria-label="..." ></p>
                                                 <p><input class="form-check-input fs-4" type="checkbox"
                                                         id="checkboxNoLabel-23" value="no" name="question_23" aria-label="..."></p>
                                                 <p><input class="form-check-input fs-4" type="checkbox"
@@ -439,7 +373,7 @@
                                                 <p><input class="form-check-input fs-4" type="checkbox"
                                                         id="checkboxNoLabel-21"  value="yes" name="question_21" aria-label="..."></p>
                                                 <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabel-22" value="yes" name="question_22" aria-label="..."></p>
+                                                        id="checkboxNoLabel-22" value="yes" name="question_22" aria-label="..." ></p>
                                                 <p><input class="form-check-input fs-4" type="checkbox"
                                                         id="checkboxNoLabel-23"  value="yes" name="question_23"aria-label="..."></p>
                                                 <p><input class="form-check-input fs-4" type="checkbox"
@@ -534,6 +468,7 @@
                                                     <span dir="rtl">21-</span>
                                                 </p>
                                                 <p class="question_22">
+                                                
                                                     هل تتعاطى أودية حاليا ؟
                                                     <span dir="rtl">22-</span>
                                                 </p>
@@ -568,6 +503,75 @@
                                     </div>
 
                                 </div>
+                            </div>
+                            <div class="panel  setup-content" id="step-2">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="fw-bolder pe-4" dir="rtl">
+                                                <h3> تعليمات الليزر قبل العلاج: </h3>
+                                                <p>
+                                                    تجنب التعرض لأشعة الشمس من 4 إلى 6 أسابيع قبل العلاج
+                                                </p>
+                                                <p>
+                                                    تجنب التقشير- النتف - الشمع
+                                                </p>
+                                                <p>
+                                                    الإخبار بالأمراض الجلدية
+                                                </p>
+                                                <p>
+                                                    عدم تناول أي نوع من أنواع الأدوية وخصوصا الروكتان
+                                                </p>
+                                                <p>
+                                                    حلق المنطقة قبل يوم أو يومين من الليزر وترك منطقة صغيرة
+                                                </p>
+                                                <p>
+                                                    تجنب تسمير المنطقة قبل الجلسة لمدة 6أسابيع والمعروف بالتاننج
+                                                </p>
+                                                <p>
+                                                    ممنوع منعا باتا استخدام حمام البخار والساونا والحمامات المغربية قبل
+                                                    جلسة الليزر بأسبوعان
+                                                </p>
+                                                <p>
+                                                    عدم إستخدام أي نوع كريمات أو معطرات الجسم أو مزيل العرق قبل جلسة
+                                                    الليزر
+
+                                                </p>
+                                            </div>
+                                            <div class="fw-bolder pt-5 pe-4" dir="rtl">
+                                                <h3> تعليمات الليزر بعد العلاج: </h3>
+                                                <p>
+                                                    ممكن حدوث إحمرار أو حروق طفيفة
+                                                </p>
+                                                <p>
+                                                    وضع كمادات باردة لمدة ربع ساعة للتخفيف من الألم والاحمرار
+                                                </p>
+                                                <p>
+                                                    يمكن الإستحمام بعد ساعتين
+                                                </p>
+                                                <p>
+                                                    ضرورة إستخدام مرطبات للجسم والعلاجات الموصوفة من قبل الطبيب
+                                                </p>
+                                                <p>
+                                                    عدم إستخدام كريمات معطرة أو عطور مباشر بعد الجلسة
+                                                </p>
+                                                <p>
+                                                    تجنب النتف – الشمع – التقشيير
+                                                </p>
+                                                <p>
+                                                    ممنوع منعا باتا استخدام حمامات البخار والساونا والحمامات المغربية
+                                                    بعد جلسة الليزر </p>
+
+                                            </div>
+                                            <div class="pe-5 iqrar py-5">
+                                        <button class="btn btn-primary nextBtn pull-right fw-bolder fs-2 w-25"
+                                            type="button"> التالي </button>
+                                    </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
                             <!-- <div class="row" >
                               
@@ -829,6 +833,7 @@
                 }
             });
         }
+        
     </script>
 
     <!-- script link end here  -->

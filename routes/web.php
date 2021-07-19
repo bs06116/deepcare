@@ -22,10 +22,14 @@ Route::get('/', function () {
 
     return view('welcome');
 });
-
+Route::get('/en', function () {
+    return view('welcome_en');
+});
+// Route::get('/english', [HomeController::class, 'english'])-name('english');
 Auth::routes();
 
 Route::get('/home', [HomeController::class, 'index'])->name('home');
+
 Route::post('/save-frm', [HomeController::class, 'store'])->name('store');
 
 Route::group(['middleware' => ['auth']], function() {

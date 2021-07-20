@@ -8,6 +8,7 @@
                     $("#question_25").hide();
                 }
             });
+
             $("input:checkbox").on('click', function() {
                 // in the handler, 'this' refers to the box clicked on
                 var $box = $(this);
@@ -17,6 +18,16 @@
                     // the name of the box is retrieved using the .attr() method
                     // as it is assumed and expected to be immutable
                     var group = "input:checkbox[name='" + $box.attr("name") + "']";
+                    if($box.attr("name") == 'question_22'  && $box.attr("value") == 'yes') {
+                        $("#other_answer_22").show();
+                    }else if($box.attr("name") == 'question_22'  && $box.attr("value") == 'no'){
+                        $("#other_answer_22").hide();
+                    }
+                    if($box.attr("name") == 'question_24'  && $box.attr("value") == 'yes') {
+                        $("#other_answer_24").show();
+                    }else if($box.attr("name") == 'question_24'  && $box.attr("value") == 'no'){
+                        $("#other_answer_24").hide();
+                    }
                     // the checked state of the group/box on the other hand will change
                     // and the current value is retrieved using .prop() method
                     $(group).prop("checked", false);

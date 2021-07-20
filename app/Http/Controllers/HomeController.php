@@ -68,13 +68,15 @@ class HomeController extends Controller
             for ($i = 1; $i <= 25; $i++) {
                 $question = 'question_' . $i;
                 $anwser = $request->input('question_' . $i);
-                $userQuestionAnswer[] = array('question' => $question,'discription'=>$this->questionDescription($question),
+                $reasons = $request->input('other_answer_' . $i);
+
+                $userQuestionAnswer[] = array('question' => $question,'reasons'=>$reasons,'discription'=>$this->questionDescription($question),
                  'answer' => $anwser, 'user_id' => $u->id);
             }
             $finalResult = DB::table('question_answer')->insert($userQuestionAnswer);
             //$this->sendMessage('Deep care Center',$phone);
             if($lang == 'en'){
-                $mesasge = 'Thanks you! Form has been submited succfully.';
+                $mesasge = 'Thanks you! Form has been submited successfully.';
             }else{
                 $mesasge = 'شكرا لك
                 تم إرسال النموذج بنجاح';
@@ -126,11 +128,11 @@ class HomeController extends Controller
                          'question_18'=>'fainting',
                          'question_19'=>'Do you have an allergy to insulin? ',
                          'question_20'=>'Are you allergic to medicines',
-                         'question_21'=>'Are you currently using valleys?',
-                         'question_22'=>'Are you pregnant?',
+                         'question_21'=>'Did you get a tan?',
+                         'question_22'=>' Are you currently using valleys?',
                          'question_23'=>'Have you ever done laser work?',
-                         'question_24'=>'Do you have a skin allergy',
-                         'question_25'=>'Did you get a tan?' );
+                         'question_24'=>' Do you have a skin allergy',
+                         'question_25'=>'Are you pregnant?' );
         return $message[$question];
     }
 }

@@ -115,6 +115,9 @@
     /* height: 100vh;a */
     background-color: #eee7f2;
 }
+.form-and-chckbox .row {
+    height: 35px;
+}
 /*footer section end here*/
 @media (max-width: 425px) {
     #usman {
@@ -132,7 +135,7 @@
 
     .card1 {
         position: relative;
-        
+
         border-radius: 12px !important;
     }
     .btn-circle {
@@ -198,7 +201,7 @@
         font-weight: bold;
         font-size: 11px !important;
         line-height: 18px !important;
-        
+
     }
     .container .row .questions {
         line-height: 12px;

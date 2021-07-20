@@ -385,25 +385,25 @@
                                             </div> -->
 
 
-                                            <div class="col-12   " >
-                                            <div class="row  " >
+                                            <div class="col-12  form-and-chckbox " >
+                                        <div class="row  " >
                                             <div class="col-2 text-center"  >
                                             <p><input class="form-check-input  fs-4" type="checkbox"
                                                         id="checkboxNoLabelNo_1" value="yes" name="question_1"  aria-label="..."  ></p>
                                                 <p class="p"></p><br>
-                                            </div>
+                                        </div>
                                             <div class="col-2 text-center" >
                                             <p><input class="form-check-input fs-4" type="checkbox"
                                                         id="checkboxNoLabelNo_1" value="no"  name="question_1"  aria-label="..."></p>
                                             </div>
 
                                             <div class="col-6 text-right" >
-                                            <p class="question_1" >
-                                            ⸮ هل سبق أن حدثت معك مشكلة أثناء أو بعد علاج الأسنان
-                                                </p>
-                                            </div>
-                                            <div class="col-2 " >
-                                            <span >-1</span>
+                                                 <p class="question_1" >
+                                                    ⸮ هل سبق أن حدثت معك مشكلة أثناء أو بعد علاج الأسنان
+                                                        </p>
+                                                    </div>
+                                                    <div class="col-1 " >
+                                                    <span >-1</span>
                                             </div>
 
                                             </div>
@@ -809,24 +809,34 @@
                                             </div>
                                             </div>
                                             <div class="row  " >
-                                            <div class="col-2 text-center"  >
-                                            <p><input class="form-check-input  fs-4" type="checkbox"
+                                               
+                                                <div class="col-2 text-center"  >
+                                                         <p><input class="form-check-input  fs-4" type="checkbox"
                                                         id="checkboxNoLabelNo_22" value="yes" name="question_22"  aria-label="..."  ></p>
-                                                <p class="p"></p><br>
-                                            </div>
-                                            <div class="col-2 text-center" >
-                                            <p><input class="form-check-input fs-4" type="checkbox"
+                                                </div>
+                                              
+                                                <div class="col-2 text-center" >
+                                                     <p><input class="form-check-input fs-4" type="checkbox"
                                                         id="checkboxNoLabelNo_22" value="no"  name="question_22"  aria-label="..."></p>
-                                            </div>
-
-                                            <div class="col-6 text-right" >
-                                            <p class="question_22" >
+                                                </div>
+                                               
+                                            <div class="col-6  text-right" >
+                                            
+                                            <p class="question_22" >      
                                             هل تتعاطى أودية حاليا ؟
+                                            
                                                 </p>
                                             </div>
                                             <div class="col-2 " >
                                             <span >-22</span>
                                             </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-4"></div>
+                                                 <div class="col-6 mt-2">
+                                                  <input type="text" class="mr-4">
+                                                 </div>
+                                            <div class="col-2"></div>
                                             </div>
                                             <div class="row  " >
                                             <div class="col-2 text-center"  >
@@ -868,6 +878,13 @@
                                             <div class="col-2 " >
                                             <span >-24</span>
                                             </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-4"></div>
+                                                 <div class="col-6 mt-2">
+                                                  <input type="text" class="mr-4">
+                                                 </div>
+                                            <div class="col-2"></div>
                                             </div>
                                             <div class="row" style="display: none"  id="question_25">
                                             <div class="col-2 text-center"  >

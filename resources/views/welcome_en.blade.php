@@ -76,19 +76,19 @@
                         <div class="stepwizard pt-4">
                             <div class="stepwizard-row setup-panel" >
                                 <div class="col-xs-3 col3"></div>
-                                <div class="stepwizard-step col-xs-2 text-start" id="">
+                                <div class="stepwizard-step col-xs-2 text-start" >
                                     <a href="#step-1" type="button" class="btn btn-success btn-circle btn-circle1"
                                         disabled="disabled"><i class="fa fa-file-text" aria-hidden="true"></i></a>
                                     <p class="fs-2 fw-bolder"><small>Data Entry </small></p>
                                 </div>
-                                <div class="stepwizard-step col-xs-2" id="">
+                                <div class="stepwizard-step col-xs-2" >
                                 <a href="#step-2" type="button" class="btn btn-default btn-circle btn-circle1"
                                         disabled="disabled"><i class="far fa-clipboard-list" aria-hidden="true"></i></a>
                                     <p class="fs-2 fw-bolder"><small> Instructions </small></p>
                                 </div>
 
 
-                                <div class="stepwizard-step col-xs-2" id="">
+                                <div class="stepwizard-step col-xs-2" >
                                     <a href="#step-3" type="button" class="btn btn btn-default  btn-circle" disabled="disabled"><i
                                             class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
                                     <p class="fs-2 fw-bolder"><small> Endorsement </small></p>

@@ -992,8 +992,8 @@
                                                 <p class="question_25" id="question_25" style="display: none">
                                                     هل أنتي حامل ؟
                                                     <span dir="rtl">25-</span>
-                                                </p>
-                                            </div> -->
+                                                </p> -->
+                                            </div>
 
                                         </div>
 

@@ -8,6 +8,7 @@
                     $("#question_25").hide();
                 }
             });
+
             $("input:checkbox").on('click', function() {
                 // in the handler, 'this' refers to the box clicked on
                 var $box = $(this);
@@ -17,6 +18,16 @@
                     // the name of the box is retrieved using the .attr() method
                     // as it is assumed and expected to be immutable
                     var group = "input:checkbox[name='" + $box.attr("name") + "']";
+                    if($box.attr("name") == 'question_22'  && $box.attr("value") == 'yes') {
+                        $("#other_answer_22").show();
+                    }else if($box.attr("name") == 'question_22'  && $box.attr("value") == 'no'){
+                        $("#other_answer_22").hide();
+                    }
+                    if($box.attr("name") == 'question_25'  && $box.attr("value") == 'yes') {
+                        $("#other_answer_25").show();
+                    }else if($box.attr("name") == 'question_25'  && $box.attr("value") == 'no'){
+                        $("#other_answer_25").hide();
+                    }
                     // the checked state of the group/box on the other hand will change
                     // and the current value is retrieved using .prop() method
                     $(group).prop("checked", false);
@@ -101,9 +112,9 @@
                 success: function(data) {
                     $(".fa-spinner").hide();
                     $(".message").text(data.message)
-            //          setTimeout(function(){
-            //            window.location.reload();
-            //          }, 5000);
+                     setTimeout(function(){
+                       window.location.reload();
+                     }, 5000);
                     console.log(data); //Please share cosnole data
                     // if(data.msg) //Check the data.msg isset?
                     // {

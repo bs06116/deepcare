@@ -19,9 +19,9 @@ class UserController extends Controller
      */
     public function index(Request $request)
     {
-        $data = User::where('id','!=',1)->orderBy('id','DESC')->paginate(5);
+        $data = User::where('id','!=',1)->orderBy('id','DESC')->paginate(15);
         return view('users.index',compact('data'))
-            ->with('i', ($request->input('page', 1) - 1) * 5);
+            ->with('i', ($request->input('page', 1) - 1) * 15);
     }
 
     /**
@@ -128,6 +128,8 @@ class UserController extends Controller
     public function destroy($id)
     {
         User::find($id)->delete();
+        DB::table('question_answer')->where('user_id',$id)->delete();
+
         return redirect()->route('users.index')
                         ->with('success','User deleted successfully');
     }

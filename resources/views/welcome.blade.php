@@ -253,169 +253,43 @@
 
                                     <div class="container pt-4 bg-white form3">
                                         <div class="row">
-                                            <!-- <div class="col-2 text-center  questions">
-                                                <?php for ($k = 1; $k <= 25; $k++) { if ($k==2) { ?> <p class="p">
-                                                    </p>
-                                                    <?php } else { ?>
-                                                    <p><input <?php if($k == 25) {?> style="display:none" <?php }?> class="form-check-input  fs-4 " type="checkbox"
-                                                            id="checkboxNoLabelNo_<?php echo $k; ?>"
-                                                            value="no"
-                                                            name="question_<?php echo $k; ?>"
-                                                            aria-label="...">
-                                                    </p>
-                                                    <?php }
-                                                    } ?>
-
-                                                    {{-- <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabel-1" value="no"  name="question_1"  aria-label="..."></p>
-                                                <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabel-2" value="no" name="question_2" aria-label="..."></p>
-                                                <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabel-3"value="no" name="question_3" aria-label="..."></p>
-                                                <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabel-4" value="no" name="question_4" aria-label="..."></p>
-                                                <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabel-5" value="no" name="question_5" aria-label="..."></p>
-                                                <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabel-6" value="no" name="question_6" aria-label="..."></p>
-                                                <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabel-7" value="no" name="question_7" aria-label="..."></p>
-                                                <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabel-8" value="no" name="question_8" aria-label="..."></p>
-                                                <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabel-9" value="no" name="question_9" aria-label="..."></p>
-                                                <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabel-10" value="no" name="question_10" aria-label="..."></p>
-                                                <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabel-11" value="no" name="question_11" aria-label="..."></p>
-                                                <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabel-12" value="no" name="question_12" aria-label="..."></p>
-                                                <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabel-13" value="no" name="question_13" aria-label="..."></p>
-                                                <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabel-14" value="no" name="question_14" aria-label="..."></p>
-                                                <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabel-15" value="no" name="question_15" aria-label="..."></p>
-                                                <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabel-16" value="no" name="question_16" aria-label="..."></p>
-                                                <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabel-17" value="no" name="question_17" aria-label="..."></p>
-                                                <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabel-18" value="no" name="question_18" aria-label="..."></p>
-                                                <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabel-19" value="no" name="question_19" aria-label="..."></p>
-                                                <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabel-20" value="no" name="question_20" aria-label="..."></p>
-                                                <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabel-21" value="no" name="question_21" aria-label="..."></p>
-                                                <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabel-22" value="no" name="question_22" aria-label="..." ></p>
-                                                <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabel-23" value="no" name="question_23" aria-label="..."></p>
-                                                <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabel-24" value="no" name="question_24" aria-label="..."></p>
-                                                <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabel-25" value="no" name="question_25" aria-label="..."></p> --}}
-                                            </div> -->
-                                            <!-- <div class="col-2 text-center questions">
-                                                <?php for ($m = 1; $m <= 25; $m++) { if ($m==2) { ?> <p class="p">
-                                                    </p>
-                                                    <?php } else { ?>
-                                                    <p><input <?php if($m == 25) {?> style="display:none" <?php }?> class="form-check-input  fs-4 " type="checkbox"
-                                                            id="checkboxNoLabelYes_<?php echo $m; ?>"
-                                                            value="yes"
-                                                            name="question_<?php echo $m; ?>"
-                                                            aria-label="...">
-                                                    </p>
-                                                    <?php }
-                                                    } ?>
-                                                    {{-- <p><input class="form-check-input  fs-4" type="checkbox"
-                                                        id="checkboxNoLabel" value="yes" name="question_1"  aria-label="..."  ></p>
-                                                <p class="p"></p><br>
-                                                <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabel-1" value="yes" name="question_1" aria-label="..."></p>
-                                                <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabel-2"  value="yes" name="question_2" aria-label="..."></p>
-                                                <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabel-3"  value="yes" name="question_3" aria-label="..."></p>
-                                                <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabel-4"  value="yes" name="question_4" aria-label="..."></p>
-                                                <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabel-5" value="yes" name="question_5" aria-label="..."></p>
-                                                <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabel-6"  value="yes" name="question_6" aria-label="..."></p>
-                                                <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabel-7"  value="yes" name="question_7" aria-label="..."></p>
-                                                <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabel-8"  value="yes" name="question_8" aria-label="..."></p>
-                                                <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabel-9"  value="yes" name="question_9" aria-label="..."></p>
-                                                <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabel-10"  value="yes" name="question_10" aria-label="..."></p>
-                                                <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabel-11"  value="yes" name="question_11" aria-label="..."></p>
-                                                <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabel-12"  value="yes" name="question_12" aria-label="..."></p>
-                                                <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabel-13"  value="yes" name="question_13" aria-label="..."></p>
-                                                <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabel-14"  value="yes" name="question_14" aria-label="..."></p>
-                                                <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabel-15"  value="yes" name="question_15" aria-label="..."></p>
-                                                <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabel-16"  value="yes" name="question_16" aria-label="..."></p>
-                                                <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabel-17"  value="yes" name="question_17" aria-label="..."></p>
-                                                <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabel-18"  value="yes" name="question_18" aria-label="..."></p>
-                                                <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabel-19"  value="yes" name="question_29" aria-label="..."></p>
-                                                <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabel-20"  value="yes" name="question_20" aria-label="..."></p>
-                                                <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabel-21"  value="yes" name="question_21" aria-label="..."></p>
-                                                <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabel-22" value="yes" name="question_22" aria-label="..." ></p>
-                                                <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabel-23"  value="yes" name="question_23"aria-label="..."></p>
-                                                <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabel-24"  value="yes" name="question_24"aria-label="..."></p>
-                                                <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabel-25"  value="yes" name="question_25"aria-label="..."></p>  --}}
-                                            </div> -->
 
 
-                                            <div class="col-12   " >
-                                            <div class="row  " >
+                                            <div class="col-12  form-and-chckbox " >
+                                        <div class="row  " >
                                             <div class="col-2 text-center"  >
-                                            <p><input class="form-check-input  fs-4" type="checkbox"
-                                                        id="checkboxNoLabelNo_1" value="yes" name="question_1"  aria-label="..."  ></p>
+                                            <p> <input class="form-check-input fs-4" type="checkbox"
+                                                id="checkboxNoLabelNo_1" value="no"  name="question_1"  aria-label="..."></p>
                                                 <p class="p"></p><br>
-                                            </div>
+                                        </div>
                                             <div class="col-2 text-center" >
-                                            <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabelNo_1" value="no"  name="question_1"  aria-label="..."></p>
+                                            <p>
+                                                <input class="form-check-input  fs-4" type="checkbox"
+                                                        id="checkboxNoLabelNo_1" value="yes" name="question_1"  aria-label="..."  >
+                                               </p>
                                             </div>
 
                                             <div class="col-6 text-right" >
-                                            <p class="question_1" >
-                                            ⸮ هل سبق أن حدثت معك مشكلة أثناء أو بعد علاج الأسنان
-                                                </p>
-                                            </div>
-                                            <div class="col-2 " >
-                                            <span >-1</span>
+                                                 <p class="question_1" >
+                                                    ⸮ هل سبق أن حدثت معك مشكلة أثناء أو بعد علاج الأسنان
+                                                        </p>
+                                                    </div>
+                                                    <div class="col-1 " >
+                                                    <span >-1</span>
                                             </div>
 
                                             </div>
                                             <div class="row  " >
                                             <div class="col-2 text-center"  >
-                                            <p><input class="form-check-input  fs-4" type="checkbox"
-                                                        id="checkboxNoLabelNo_2" value="yes" name="question_2"  aria-label="..."  ></p>
+                                            <p> <input class="form-check-input fs-4" type="checkbox"
+                                                id="checkboxNoLabelNo_2" value="no"  name="question_2"  aria-label="..."></p>
                                                 <p class="p"></p><br>
                                             </div>
                                             <div class="col-2 text-center" >
-                                            <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabelNo_2" value="no"  name="question_2"  aria-label="..."></p>
+                                            <p>
+                                                <input class="form-check-input  fs-4" type="checkbox"
+                                                        id="checkboxNoLabelNo_2" value="yes" name="question_2"  aria-label="..."  >
+                                               </p>
                                             </div>
 
 
@@ -430,13 +304,15 @@
                                             </div>
                                             <div class="row  " >
                                             <div class="col-2 text-center"  >
-                                            <p><input class="form-check-input  fs-4" type="checkbox"
-                                                        id="checkboxNoLabelNo_3" value="yes" name="question_3"  aria-label="..."  ></p>
+                                            <p><input class="form-check-input fs-4" type="checkbox"
+                                                id="checkboxNoLabelNo_3" value="no"  name="question_3"  aria-label="..."></p>
                                                 <p class="p"></p><br>
                                             </div>
                                             <div class="col-2 text-center" >
-                                            <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabelNo_3" value="no"  name="question_3"  aria-label="..."></p>
+                                            <p>
+                                                <input class="form-check-input  fs-4" type="checkbox"
+                                                        id="checkboxNoLabelNo_3" value="yes" name="question_3"  aria-label="..."  >
+                                                </p>
                                             </div>
 
                                             <div class="col-6 text-right" >
@@ -450,13 +326,15 @@
                                             </div>
                                             <div class="row  " >
                                             <div class="col-2 text-center"  >
-                                            <p><input class="form-check-input  fs-4" type="checkbox"
-                                                        id="checkboxNoLabelNo_4" value="yes" name="question_4"  aria-label="..."  ></p>
+                                            <p> <input class="form-check-input fs-4" type="checkbox"
+                                                id="checkboxNoLabelNo_4" value="no"  name="question_4"  aria-label="..."></p>
                                                 <p class="p"></p><br>
                                             </div>
                                             <div class="col-2 text-center" >
-                                            <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabelNo_4" value="no"  name="question_4"  aria-label="..."></p>
+                                            <p>
+                                                <input class="form-check-input  fs-4" type="checkbox"
+                                                        id="checkboxNoLabelNo_4" value="yes" name="question_4"  aria-label="..."  >
+                                               </p>
                                             </div>
 
                                             <div class="col-6 text-right" >
@@ -470,13 +348,15 @@
                                             </div>
                                             <div class="row  " >
                                             <div class="col-2 text-center"  >
-                                            <p><input class="form-check-input  fs-4" type="checkbox"
-                                                        id="checkboxNoLabelNo_5" value="yes" name="question_5"  aria-label="..."  ></p>
+                                            <p><input class="form-check-input fs-4" type="checkbox"
+                                                id="checkboxNoLabelNo_5" value="no"  name="question_5"  aria-label="..."></p>
                                                 <p class="p"></p><br>
                                             </div>
                                             <div class="col-2 text-center" >
-                                            <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabelNo_5" value="no"  name="question_5"  aria-label="..."></p>
+                                            <p>
+                                                <input class="form-check-input  fs-4" type="checkbox"
+                                                        id="checkboxNoLabelNo_5" value="yes" name="question_5"  aria-label="..."  >
+                                                </p>
                                             </div>
 
                                             <div class="col-6 text-right" >
@@ -490,13 +370,15 @@
                                             </div>
                                             <div class="row  " >
                                             <div class="col-2 text-center"  >
-                                            <p><input class="form-check-input  fs-4" type="checkbox"
-                                                        id="checkboxNoLabelNo_6" value="yes" name="question_6"  aria-label="..."  ></p>
+                                            <p><input class="form-check-input fs-4" type="checkbox"
+                                                id="checkboxNoLabelNo_6" value="no"  name="question_6"  aria-label="..."></p>
                                                 <p class="p"></p><br>
                                             </div>
                                             <div class="col-2 text-center" >
-                                            <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabelNo_6" value="no"  name="question_6"  aria-label="..."></p>
+                                            <p>
+                                                <input class="form-check-input  fs-4" type="checkbox"
+                                                        id="checkboxNoLabelNo_6" value="yes" name="question_6"  aria-label="..."  >
+                                                </p>
                                             </div>
 
                                             <div class="col-6 text-right" >
@@ -510,13 +392,15 @@
                                             </div>
                                             <div class="row  " >
                                             <div class="col-2 text-center"  >
-                                            <p><input class="form-check-input  fs-4" type="checkbox"
-                                                        id="checkboxNoLabelNo_7" value="yes" name="question_7"  aria-label="..."  ></p>
+                                            <p><input class="form-check-input fs-4" type="checkbox"
+                                                id="checkboxNoLabelNo_7" value="no"  name="question_7"  aria-label="..."></p>
                                                 <p class="p"></p><br>
                                             </div>
                                             <div class="col-2 text-center" >
-                                            <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabelNo_7" value="no"  name="question_7"  aria-label="..."></p>
+                                            <p>
+                                                <input class="form-check-input  fs-4" type="checkbox"
+                                                        id="checkboxNoLabelNo_7" value="yes" name="question_7"  aria-label="..."  >
+                                                </p>
                                             </div>
 
                                             <div class="col-6 text-right" >
@@ -530,13 +414,15 @@
                                             </div>
                                             <div class="row  " >
                                             <div class="col-2 text-center"  >
-                                            <p><input class="form-check-input  fs-4" type="checkbox"
-                                                        id="checkboxNoLabelNo_8" value="yes" name="question_8"  aria-label="..."  ></p>
+                                            <p>
+                                                <input class="form-check-input fs-4" type="checkbox"
+                                                        id="checkboxNoLabelNo_8" value="no"  name="question_8"  aria-label="...">
+                                                </p>
                                                 <p class="p"></p><br>
                                             </div>
                                             <div class="col-2 text-center" >
-                                            <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabelNo_8" value="no"  name="question_8"  aria-label="..."></p>
+                                            <p><input class="form-check-input  fs-4" type="checkbox"
+                                                id="checkboxNoLabelNo_8" value="yes" name="question_8"  aria-label="..."  ></p>
                                             </div>
 
                                             <div class="col-6 text-right" >
@@ -550,13 +436,15 @@
                                             </div>
                                             <div class="row  " >
                                             <div class="col-2 text-center"  >
-                                            <p><input class="form-check-input  fs-4" type="checkbox"
-                                                        id="checkboxNoLabelNo_9" value="yes" name="question_9"  aria-label="..."  ></p>
+                                            <p><input class="form-check-input fs-4" type="checkbox"
+                                                id="checkboxNoLabelNo_9" value="no"  name="question_9"  aria-label="..."></p>
                                                 <p class="p"></p><br>
                                             </div>
                                             <div class="col-2 text-center" >
-                                            <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabelNo_9" value="no"  name="question_9"  aria-label="..."></p>
+                                            <p>
+                                                <input class="form-check-input  fs-4" type="checkbox"
+                                                        id="checkboxNoLabelNo_9" value="yes" name="question_9"  aria-label="..."  >
+                                                </p>
                                             </div>
 
                                             <div class="col-6 text-right" >
@@ -570,13 +458,15 @@
                                             </div>
                                             <div class="row  " >
                                             <div class="col-2 text-center"  >
-                                            <p><input class="form-check-input  fs-4" type="checkbox"
-                                                        id="checkboxNoLabelNo_10" value="yes" name="question_10"  aria-label="..."  ></p>
+                                            <p> <input class="form-check-input fs-4" type="checkbox"
+                                                id="checkboxNoLabelNo_11" value="no"  name="question_10"  aria-label="..."></p>
                                                 <p class="p"></p><br>
                                             </div>
                                             <div class="col-2 text-center" >
-                                            <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabelNo_11" value="no"  name="question_10"  aria-label="..."></p>
+                                            <p>
+                                                <input class="form-check-input  fs-4" type="checkbox"
+                                                        id="checkboxNoLabelNo_10" value="yes" name="question_10"  aria-label="..."  >
+                                               </p>
                                             </div>
 
                                             <div class="col-6 text-right" >
@@ -590,13 +480,15 @@
                                             </div>
                                             <div class="row  " >
                                             <div class="col-2 text-center"  >
-                                            <p><input class="form-check-input  fs-4" type="checkbox"
-                                                        id="checkboxNoLabelNo_11" value="yes" name="question_11"  aria-label="..."  ></p>
+                                            <p> <input class="form-check-input fs-4" type="checkbox"
+                                                id="checkboxNoLabelNo_11" value="no"  name="question_11"  aria-label="..."></p>
                                                 <p class="p"></p><br>
                                             </div>
                                             <div class="col-2 text-center" >
-                                            <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabelNo_11" value="no"  name="question_11"  aria-label="..."></p>
+                                            <p>
+                                                <input class="form-check-input  fs-4" type="checkbox"
+                                                        id="checkboxNoLabelNo_11" value="yes" name="question_11"  aria-label="..."  >
+                                               </p>
                                             </div>
 
                                             <div class="col-6 text-right" >
@@ -610,13 +502,15 @@
                                             </div>
                                             <div class="row  " >
                                             <div class="col-2 text-center"  >
-                                            <p><input class="form-check-input  fs-4" type="checkbox"
-                                                        id="checkboxNoLabelNo_12" value="yes" name="question_12"  aria-label="..."  ></p>
+                                            <p> <input class="form-check-input fs-4" type="checkbox"
+                                                id="checkboxNoLabelNo_12" value="no"  name="question_12"  aria-label="..."></p>
                                                 <p class="p"></p><br>
                                             </div>
                                             <div class="col-2 text-center" >
-                                            <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabelNo_12" value="no"  name="question_12"  aria-label="..."></p>
+                                            <p>
+                                                <input class="form-check-input  fs-4" type="checkbox"
+                                                        id="checkboxNoLabelYes_12" value="yes" name="question_12"  aria-label="..."  >
+                                               </p>
                                             </div>
 
                                             <div class="col-6 text-right" >
@@ -630,13 +524,15 @@
                                             </div>
                                             <div class="row  " >
                                             <div class="col-2 text-center"  >
-                                            <p><input class="form-check-input  fs-4" type="checkbox"
-                                                        id="checkboxNoLabelNo_13" value="yes" name="question_13"  aria-label="..."  ></p>
+                                            <p> <input class="form-check-input fs-4" type="checkbox"
+                                                id="checkboxNoLabelNo_13" value="no"  name="question_13"  aria-label="..."></p>
                                                 <p class="p"></p><br>
                                             </div>
                                             <div class="col-2 text-center" >
-                                            <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabelNo_13" value="no"  name="question_13"  aria-label="..."></p>
+                                            <p>
+                                                <input class="form-check-input  fs-4" type="checkbox"
+                                                        id="checkboxNoLabelYes_13" value="yes" name="question_13"  aria-label="..."  >
+                                               </p>
                                             </div>
 
                                             <div class="col-6 text-right" >
@@ -650,13 +546,15 @@
                                             </div>
                                             <div class="row  " >
                                             <div class="col-2 text-center"  >
-                                            <p><input class="form-check-input  fs-4" type="checkbox"
-                                                        id="checkboxNoLabelNo_14" value="yes" name="question_14"  aria-label="..."  ></p>
+                                            <p> <input class="form-check-input fs-4" type="checkbox"
+                                                id="checkboxNoLabelNo_14" value="no"  name="question_14"  aria-label="..."></p>
                                                 <p class="p"></p><br>
                                             </div>
                                             <div class="col-2 text-center" >
-                                            <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabelNo_14" value="no"  name="question_14"  aria-label="..."></p>
+                                            <p>
+                                                <input class="form-check-input  fs-4" type="checkbox"
+                                                        id="checkboxNoLabelYes_14" value="yes" name="question_14"  aria-label="..."  >
+                                               </p>
                                             </div>
 
                                             <div class="col-6 text-right" >
@@ -670,13 +568,15 @@
                                             </div>
                                             <div class="row  " >
                                             <div class="col-2 text-center"  >
-                                            <p><input class="form-check-input  fs-4" type="checkbox"
-                                                        id="checkboxNoLabelNo_15" value="yes" name="question_15"  aria-label="..."  ></p>
+                                            <p> <input class="form-check-input fs-4" type="checkbox"
+                                                id="checkboxNoLabelNo_15" value="no"  name="question_15"  aria-label="..."></p>
                                                 <p class="p"></p><br>
                                             </div>
                                             <div class="col-2 text-center" >
-                                            <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabelNo_15" value="no"  name="question_15"  aria-label="..."></p>
+                                            <p>
+                                                <input class="form-check-input  fs-4" type="checkbox"
+                                                        id="checkboxNoLabelYes_15" value="yes" name="question_15"  aria-label="..."  >
+                                               </p>
                                             </div>
 
                                             <div class="col-6 text-right" >
@@ -690,13 +590,15 @@
                                             </div>
                                             <div class="row  " >
                                             <div class="col-2 text-center"  >
-                                            <p><input class="form-check-input  fs-4" type="checkbox"
-                                                        id="checkboxNoLabelNo_16" value="yes" name="question_16"  aria-label="..."  ></p>
+                                            <p> <input class="form-check-input fs-4" type="checkbox"
+                                                id="checkboxNoLabelNo_16" value="no"  name="question_16"  aria-label="..."></p>
                                                 <p class="p"></p><br>
                                             </div>
                                             <div class="col-2 text-center" >
-                                            <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabelNo_16" value="no"  name="question_16"  aria-label="..."></p>
+                                            <p>
+                                                <input class="form-check-input  fs-4" type="checkbox"
+                                                        id="checkboxNoLabelYes_16" value="yes" name="question_16"  aria-label="..."  >
+                                               </p>
                                             </div>
 
                                             <div class="col-6 text-right" >
@@ -710,13 +612,15 @@
                                             </div>
                                             <div class="row  " >
                                             <div class="col-2 text-center"  >
-                                            <p><input class="form-check-input  fs-4" type="checkbox"
-                                                        id="checkboxNoLabelNo_17" value="yes" name="question_17"  aria-label="..."  ></p>
+                                            <p><input class="form-check-input fs-4" type="checkbox"
+                                                id="checkboxNoLabelNo_17" value="no"  name="question_17"  aria-label="..."></p>
                                                 <p class="p"></p><br>
                                             </div>
                                             <div class="col-2 text-center" >
-                                            <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabelNo_17" value="no"  name="question_17"  aria-label="..."></p>
+                                            <p>
+                                                <input class="form-check-input  fs-4" type="checkbox"
+                                                        id="checkboxNoLabelYes_17" value="yes" name="question_17"  aria-label="..."  >
+                                                </p>
                                             </div>
 
                                             <div class="col-6 text-right" >
@@ -730,13 +634,15 @@
                                             </div>
                                             <div class="row  " >
                                             <div class="col-2 text-center"  >
-                                            <p><input class="form-check-input  fs-4" type="checkbox"
-                                                        id="checkboxNoLabelNo_18" value="yes" name="question_18"  aria-label="..."  ></p>
+                                            <p><input class="form-check-input fs-4" type="checkbox"
+                                                id="checkboxNoLabelNo_18" value="no"  name="question_18"  aria-label="..."></p>
                                                 <p class="p"></p><br>
                                             </div>
                                             <div class="col-2 text-center" >
-                                            <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabelNo_18" value="no"  name="question_18"  aria-label="..."></p>
+                                            <p>
+                                                <input class="form-check-input  fs-4" type="checkbox"
+                                                        id="checkboxNoLabelYes_18" value="yes" name="question_18"  aria-label="..."  >
+                                                </p>
                                             </div>
 
                                             <div class="col-6 text-right" >
@@ -750,13 +656,15 @@
                                             </div>
                                             <div class="row  " >
                                             <div class="col-2 text-center"  >
-                                            <p><input class="form-check-input  fs-4" type="checkbox"
-                                                        id="checkboxNoLabelNo_19" value="yes" name="question_19"  aria-label="..."  ></p>
+                                            <p><input class="form-check-input fs-4" type="checkbox"
+                                                id="checkboxNoLabelNo_19" value="no"  name="question_19"  aria-label="..."></p>
                                                 <p class="p"></p><br>
                                             </div>
                                             <div class="col-2 text-center" >
-                                            <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabelNo_19" value="no"  name="question_19"  aria-label="..."></p>
+                                            <p>
+                                                <input class="form-check-input  fs-4" type="checkbox"
+                                                        id="checkboxNoLabelYes_19" value="yes" name="question_19"  aria-label="..."  >
+                                                </p>
                                             </div>
 
                                             <div class="col-6 text-right" >
@@ -770,13 +678,15 @@
                                             </div>
                                             <div class="row  " >
                                             <div class="col-2 text-center"  >
-                                            <p><input class="form-check-input  fs-4" type="checkbox"
-                                                        id="checkboxNoLabelNo_20" value="yes" name="question_20"  aria-label="..."  ></p>
+                                            <p><input class="form-check-input fs-4" type="checkbox"
+                                                id="checkboxNoLabelNo_20" value="no"  name="question_20"  aria-label="..."></p>
                                                 <p class="p"></p><br>
                                             </div>
                                             <div class="col-2 text-center" >
-                                            <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabelNo_20" value="no"  name="question_20"  aria-label="..."></p>
+                                            <p>
+                                                <input class="form-check-input  fs-4" type="checkbox"
+                                                        id="checkboxNoLabelYes_20" value="yes" name="question_20"  aria-label="..."  >
+                                                </p>
                                             </div>
 
                                             <div class="col-6 text-right" >
@@ -790,13 +700,15 @@
                                             </div>
                                             <div class="row  " >
                                             <div class="col-2 text-center"  >
-                                            <p><input class="form-check-input  fs-4" type="checkbox"
-                                                        id="checkboxNoLabelNo_21" value="yes" name="question_21"  aria-label="..."  ></p>
+                                            <p> <input class="form-check-input fs-4" type="checkbox"
+                                                id="checkboxNoLabelNo_21" value="no"  name="question_21"  aria-label="..."></p>
                                                 <p class="p"></p><br>
                                             </div>
                                             <div class="col-2 text-center" >
-                                            <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabelNo_21" value="no"  name="question_21"  aria-label="..."></p>
+                                            <p>
+                                                <input class="form-check-input  fs-4" type="checkbox"
+                                                        id="checkboxNoLabelYes_21" value="yes" name="question_21"  aria-label="..."  >
+                                               </p>
                                             </div>
 
                                             <div class="col-6 text-right" >
@@ -809,34 +721,48 @@
                                             </div>
                                             </div>
                                             <div class="row  " >
-                                            <div class="col-2 text-center"  >
-                                            <p><input class="form-check-input  fs-4" type="checkbox"
-                                                        id="checkboxNoLabelNo_22" value="yes" name="question_22"  aria-label="..."  ></p>
-                                                <p class="p"></p><br>
-                                            </div>
-                                            <div class="col-2 text-center" >
-                                            <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabelNo_22" value="no"  name="question_22"  aria-label="..."></p>
-                                            </div>
 
-                                            <div class="col-6 text-right" >
+                                                <div class="col-2 text-center"  >
+                                                         <p> <input class="form-check-input fs-4" type="checkbox"
+                                                            id="checkboxNoLabelNo_22" value="no"  name="question_22"  aria-label="..."></p>
+                                                </div>
+
+                                                <div class="col-2 text-center" >
+                                                     <p>
+                                                        <input class="form-check-input  fs-4" type="checkbox"
+                                                        id="checkboxNoLabelYes_22" value="yes" name="question_22"  aria-label="..."  >
+                                                        </p>
+                                                </div>
+
+                                            <div class="col-6  text-right" >
+
                                             <p class="question_22" >
                                             هل تتعاطى أودية حاليا ؟
+
                                                 </p>
                                             </div>
                                             <div class="col-2 " >
                                             <span >-22</span>
                                             </div>
                                             </div>
+                                            <div class="row" style="display: none" id="other_answer_22">
+                                                <div class="col-8"></div>
+                                                 <div class="col-6 mt-2">
+                                                  <input type="text" class="mr-4" name="other_answer_22">
+                                                 </div>
+                                            <div class="col-2"></div>
+                                            </div>
                                             <div class="row  " >
                                             <div class="col-2 text-center"  >
                                             <p><input class="form-check-input  fs-4" type="checkbox"
-                                                        id="checkboxNoLabelNo_23" value="yes" name="question_23"  aria-label="..."  ></p>
+                                                id="checkboxNoLabelYes_23" value="yes" name="question_23"  aria-label="..."  ></p>
                                                 <p class="p"></p><br>
                                             </div>
                                             <div class="col-2 text-center" >
-                                            <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabelNo_23" value="no"  name="question_23"  aria-label="..."></p>
+                                            <p> <input class="form-check-input fs-4" type="checkbox"
+                                                id="checkboxNoLabelNo_23" value="no"  name="question_23"  aria-label="...">
+
+                                               </p>
                                             </div>
 
                                             <div class="col-6 text-right" >
@@ -850,13 +776,13 @@
                                             </div>
                                             <div class="row  " >
                                             <div class="col-2 text-center"  >
-                                            <p><input class="form-check-input  fs-4" type="checkbox"
-                                                        id="checkboxNoLabelNo_24" value="yes" name="question_24"  aria-label="..."  ></p>
+                                            <p><input class="form-check-input fs-4" type="checkbox"
+                                                id="checkboxNoLabelNo_24" value="no"  name="question_24"  aria-label="..."></p>
                                                 <p class="p"></p><br>
                                             </div>
                                             <div class="col-2 text-center" >
-                                            <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabelNo_24" value="no"  name="question_24"  aria-label="..."></p>
+                                            <p><input class="form-check-input  fs-4" type="checkbox"
+                                                id="checkboxNoLabelYes_24" value="yes" name="question_24"  aria-label="..."  ></p>
                                             </div>
 
                                             <div class="col-6 text-right" >
@@ -869,130 +795,57 @@
                                             <span >-24</span>
                                             </div>
                                             </div>
-                                            <div class="row" style="display: none"  id="question_25">
+                                            <div class="row  " >
+                                                <div class="col-2 text-center"  >
+                                                <p><input class="form-check-input fs-4" type="checkbox"
+                                                    id="checkboxNoLabelNo_25" value="no"  name="question_25"  aria-label="..."></p>
+                                                    <p class="p"></p><br>
+                                                </div>
+                                                <div class="col-2 text-center" >
+                                                <p>
+                                                    <input class="form-check-input  fs-4" type="checkbox"
+                                                            id="checkboxNoLabelYes_25" value="yes" name="question_25"  aria-label="..."  >
+                                                    </p>
+                                                </div>
+
+                                                <div class="col-6 text-right" >
+                                                <p class="question_25" >
+                                                 هل تعاني من أي مشاكل صحية ؟
+                                                     </p>
+                                                </div>
+                                                <div class="col-2 " >
+                                                <span >-25</span>
+                                                </div>
+                                                </div>
+                                            <div class="row" style="display: none" id="other_answer_25">
+                                                <div class="col-8"></div>
+                                                 <div class="col-6 mt-2">
+                                                  <input type="text" class="mr-4" name="other_answer_25">
+                                                 </div>
+                                            <div class="col-2"></div>
+                                            </div>
+                                            <div class="row" style="display: none"  id="question_26">
                                             <div class="col-2 text-center"  >
-                                            <p><input class="form-check-input  fs-4" type="checkbox"
-                                                        id="checkboxNoLabelNo_25" value="yes" name="question_25"  aria-label="..."  ></p>
+                                            <p><input class="form-check-input fs-4" type="checkbox"
+                                                id="checkboxNoLabelNo_26" value="no"  name="question_26"  aria-label="..."></p>
                                                 <p class="p"></p><br>
                                             </div>
                                             <div class="col-2 text-center" >
-                                            <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabelNo_25" value="no"  name="question_25"  aria-label="..."></p>
+                                            <p><input class="form-check-input  fs-4" type="checkbox"
+                                                id="checkboxNoLabelYes_26" value="yes" name="question_26"  aria-label="..."  ></p>
                                             </div>
 
                                             <div class="col-6 text-right" >
-                                            <p class="question_25" >
+                                            <p class="question_26" >
                                             هل أنتي حامل ؟
                                                 </p>
                                             </div>
                                             <div class="col-2 " >
-                                            <span >-25</span>
+                                            <span >-26</span>
                                             </div>
                                             </div>
 
-                                                <!-- <p class="question_1" >
-                                                    هل سبق أن حدثت معك مشكلة أثناء أو بعد علاج الأسنان.
-                                                    <span dir="rtl" >1-</span>
-                                                </p>
-                                                <p class="question_2">
-                                                    :هل سبق أن أصبت أو تعاني حاليا من
-                                                    <span dir="rtl">2-</span>
-                                                </p>
-                                                <p class="question_3">
-                                                    أمراض القلب
-                                                    <span dir="rtl">3-</span>
-                                                </p>
-                                                <p class="question_4">
-                                                    إرتفاع ضغط الدم
-                                                    <span dir="rtl">4-</span>
-                                                </p>
-                                                <p class="question_5">
-                                                    إنخفاض ضغط الدم
-                                                    <span dir="rtl">5-</span>
-                                                </p>
-                                                <p class="question_6">
-                                                    الحمى الروماتيزمية
-                                                    <span dir="rtl">6-</span>
-                                                </p>
-                                                <p class="question_7">
-                                                    فقر الدم
-                                                    <span dir="rtl">7-</span>
-                                                </p>
-                                                <p class="question_8">
-                                                    أمراض الدم
-                                                    <span dir="rtl">8-</span>
-                                                </p>
-                                                <p class="question_9">
-                                                    أمراض الغدة الدرقية الصفراء
-                                                    <span dir="rtl">9-</span>
-                                                </p>
-                                                <p class="question_10">
-                                                    الكبد الوبائي
-                                                    <span dir="rtl">10-</span>
-                                                </p>
-                                                <p class="question_11">
-                                                    مرض السكر
-                                                    <span dir="rtl">11-</span>
-                                                </p>
-                                                <p class="question_12">
-                                                    أي من أفرد العائلة تعرض لمرض السكر
-                                                    <span dir="rtl">12-</span>
-                                                </p>
-                                                <p class="question_13">
-                                                    الربو السل
-                                                    <span dir="rtl">13-</span>
-                                                </p>
-                                                <p class="question_14">
-                                                    صعوبة في التنفس
-                                                    <span dir="rtl">14-</span>
-                                                </p>
-                                                <p class="question_15">
-                                                    أمراض الكلى
-                                                    <span dir="rtl">15-</span>
-                                                </p>
-                                                <p class="question_16">
-                                                    التشنج
-                                                    <span dir="rtl">16-</span>
-                                                </p>
-                                                <p class="question_17">
-                                                    الصرع
-                                                    <span dir="rtl">17-</span>
-                                                </p>
-                                                <p class="question_18">
-                                                    الإغماء
-                                                    <span dir="rtl">18-</span>
-                                                </p>
-                                                <p class="question_19">
-                                                    هل لديك حساسية من البنسولين ؟
-                                                    <span dir="rtl">19-</span>
-                                                </p>
-                                                <p class="question_20">
-                                                    هل لديك حساسية من الأدوية ؟
-                                                    <span dir="rtl">20-</span>
-                                                </p>
-                                                <p class="question_21">
-                                                    هل إكتسبت تان ؟
-                                                    <span dir="rtl">21-</span>
-                                                </p>
-                                                <p class="question_22">
 
-                                                    هل تتعاطى أودية حاليا ؟
-                                                    <span dir="rtl">22-</span>
-                                                </p>
-
-                                                <p class="question_23">
-                                                    هل سبق لك عمل الليزر؟
-                                                    <span dir="rtl">23-</span>
-                                                </p>
-                                                <p class="question_24">
-                                                    هل لديك تحسس جلدي
-                                                    <span dir="rtl">24-</span>
-                                                </p>
-
-                                                <p class="question_25" id="question_25" style="display: none">
-                                                    هل أنتي حامل ؟
-                                                    <span dir="rtl">25-</span>
-                                                </p> -->
                                             </div>
 
                                         </div>

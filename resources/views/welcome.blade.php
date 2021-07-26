@@ -142,7 +142,7 @@
                                                 aria-label="Default select example">
                                                 <option value="male" class="text-start">الذكر</option>
                                                 <option value="female">أنثى</option>
-                                                <
+                                                
                                             </select>
                                         </div>
                                         <div class="col-4 text-end form-group">
@@ -255,10 +255,10 @@
                                         <div class="row">
 
 
-                                            <div class="col-12  form-and-chckbox " >
+                                            <div class="col-12  form-and-chckbox  colum" >
                                         <div class="row  " >
-                                            <div class="col-2 text-center"  >
-                                            <p> <input class="form-check-input fs-4" type="checkbox"
+                                            <div class="col-2 text-center "  >
+                                            <p dir="ltr"> <input class=" form-check-input fs-4" dir="rtl" type="checkbox"
                                                 id="checkboxNoLabelNo_1" value="no"  name="question_1"  aria-label="..."></p>
                                                 <p class="p"></p><br>
                                         </div>
@@ -269,7 +269,7 @@
                                                </p>
                                             </div>
 
-                                            <div class="col-6 text-right" >
+                                            <div class="col-6 text-right " >
                                                  <p class="question_1" >
                                                     ⸮ هل سبق أن حدثت معك مشكلة أثناء أو بعد علاج الأسنان
                                                         </p>
@@ -728,8 +728,8 @@
                                                 </div>
 
                                                 <div class="col-2 text-center" >
-                                                     <p>
-                                                        <input class="form-check-input  fs-4" type="checkbox"
+                                                     <p >
+                                                        <input class="form-check-input  fs-4"  type="checkbox"
                                                         id="checkboxNoLabelYes_22" value="yes" name="question_22"  aria-label="..."  >
                                                         </p>
                                                 </div>
@@ -745,10 +745,10 @@
                                             <span >-22</span>
                                             </div>
                                             </div>
-                                            <div class="row" style="display: none" id="other_answer_22">
+                                            <div class="row" style="display: none" id="other_answer_22" >
                                                 <div class="col-8"></div>
-                                                 <div class="col-6 mt-2">
-                                                  <input type="text" class="mr-4" name="other_answer_22">
+                                                 <div class="col-6 mt-2" >
+                                                  <input type="text" class="mr-4 text-right inp-field" name="other_answer_22"  >
                                                  </div>
                                             <div class="col-2"></div>
                                             </div>
@@ -756,7 +756,7 @@
                                             <div class="col-2 text-center"  >
                                             <p><input class="form-check-input  fs-4" type="checkbox"
                                                 id="checkboxNoLabelYes_23" value="yes" name="question_23"  aria-label="..."  ></p>
-                                                <p class="p"></p><br>
+                                                <p class="p" ></p><br>
                                             </div>
                                             <div class="col-2 text-center" >
                                             <p> <input class="form-check-input fs-4" type="checkbox"
@@ -820,7 +820,7 @@
                                             <div class="row" style="display: none" id="other_answer_25">
                                                 <div class="col-8"></div>
                                                  <div class="col-6 mt-2">
-                                                  <input type="text" class="mr-4" name="other_answer_25">
+                                                  <input type="text" class="mr-4 text-right inp-field" name="other_answer_25">
                                                  </div>
                                             <div class="col-2"></div>
                                             </div>
@@ -844,8 +844,6 @@
                                             <span >-26</span>
                                             </div>
                                             </div>
-
-
                                             </div>
 
                                         </div>

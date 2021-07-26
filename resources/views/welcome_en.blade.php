@@ -673,10 +673,12 @@
                                             </div>
                                             </div>
                                             <div class="row " id="other_answer_22" style="display: none">
-                                                <div class="col-8"></div>
-                                                 <div class="col-4 mt-2 ">
+                                            <div class="col-2"></div>
+                                            <div class="col-3 mt-2 ">
                                                   <input type="text" class="mr-4" name="other_answer_22">
                                                  </div>
+                                                <div class="col-7"></div>
+                                                
 
                                             </div>
                                             <div class="row  " >
@@ -737,13 +739,15 @@
                                                 </div>
                                                 </div>
                                             <div class="row" style="display: none" id="other_answer_25">
-                                                <div class="col-8"></div>
-                                                <div class="col-4 mt-2 ">
+                                            <div class="col-2"></div>
+                                               
+                                                <div class="col-3 mt-2 ">
                                                     <input type="text" class="mr-4" name="other_answer_25">
                                                  </div>
+                                                 <div class="col-7"></div>
                                             <div class="col-2"></div>
                                             </div>
-                                            <div class="row "  style="display: none" id="question_25">
+                                            <div class="row "  style="display: none" id="question_26">
                                             <div class="col-2 " >
                                             <span >26-</span>
                                             </div>

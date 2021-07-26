@@ -2,10 +2,10 @@
         $(document).ready(function() {
             $('.gender').on('change', function() {
                 if ($(this).val() == 'female') {
-                    $("#question_25").show();
+                    $("#question_26").show();
 
                 }else{
-                    $("#question_25").hide();
+                    $("#question_26").hide();
                 }
             });
 

@@ -65,7 +65,7 @@ class HomeController extends Controller
             $u->about_clinic = $about_clinic;
             $u->save();
             $userQuestionAnswer = [];
-            for ($i = 1; $i <= 25; $i++) {
+            for ($i = 1; $i <= 26; $i++) {
                 $question = 'question_' . $i;
                 $anwser = $request->input('question_' . $i);
                 $reasons = $request->input('other_answer_' . $i);
@@ -129,10 +129,11 @@ class HomeController extends Controller
                          'question_19'=>'Do you have an allergy to insulin? ',
                          'question_20'=>'Are you allergic to medicines',
                          'question_21'=>'Did you get a tan?',
-                         'question_22'=>' Are you currently using valleys?',
+                         'question_22'=>'Are you currently using medicine?',
                          'question_23'=>'Have you ever done laser work?',
-                         'question_24'=>' Do you have a skin allergy',
-                         'question_25'=>'Are you pregnant?' );
+                         'question_24'=>'Do you have a skin allergy?',
+                         'question_25'=>'Do you have any health issue?',
+                         'question_26'=>'Are you pregnant?' );
         return $message[$question];
     }
 }

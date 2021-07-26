@@ -659,7 +659,7 @@
                                             </div>
                                             <div class="col-6 text-left" >
                                             <p class="question_22" >
-                                            Are you currently using valleys?
+                                            Are you currently using medicine?
                                                 </p>
                                             </div>
                                             <div class="col-2"  >
@@ -717,30 +717,49 @@
                                                         id="checkboxNoLabelNo_24" value="no"  name="question_24"  aria-label="..."></p>
                                             </div>
                                             </div>
-                                            <div class="row" style="display: none" id="other_answer_24">
+                                            <div class="row  " >
+                                                <div class="col-2 " >
+                                                <span >25-</span>
+                                                </div>
+                                                <div class="col-6 text-left" >
+                                                <p class="question_25" >
+                                                Do you have any health issue?
+                                                    </p>
+                                                </div>
+                                                <div class="col-2"  >
+                                                <p><input class="form-check-input  fs-4" type="checkbox"
+                                                            id="checkboxNoLabelNo_25" value="yes" name="question_25"  aria-label="..."  ></p>
+                                                    <p class="p"></p><br>
+                                                </div>
+                                                <div class="col-2" >
+                                                <p><input class="form-check-input fs-4" type="checkbox"
+                                                            id="checkboxNoLabelNo_25" value="no"  name="question_25"  aria-label="..."></p>
+                                                </div>
+                                                </div>
+                                            <div class="row" style="display: none" id="other_answer_25">
                                                 <div class="col-8"></div>
                                                 <div class="col-4 mt-2 ">
-                                                    <input type="text" class="mr-4" name="other_answer_24">
+                                                    <input type="text" class="mr-4" name="other_answer_25">
                                                  </div>
                                             <div class="col-2"></div>
                                             </div>
                                             <div class="row "  style="display: none" id="question_25">
                                             <div class="col-2 " >
-                                            <span >25-</span>
+                                            <span >26-</span>
                                             </div>
                                             <div class="col-6 text-left" >
-                                            <p class="question_25" >
+                                            <p class="question_26" >
                                             Are you pregnant?
                                                 </p>
                                             </div>
                                             <div class="col-2"  >
                                             <p><input class="form-check-input  fs-4" type="checkbox"
-                                                        id="checkboxNoLabelNo_25" value="yes" name="question_25"  aria-label="..."  ></p>
+                                                        id="checkboxNoLabelNo_26" value="yes" name="question_26"  aria-label="..."  ></p>
                                                 <p class="p"></p><br>
                                             </div>
                                             <div class="col-2" >
                                             <p><input class="form-check-input fs-4" type="checkbox"
-                                                        id="checkboxNoLabelNo_25" value="no"  name="question_25"  aria-label="..."></p>
+                                                        id="checkboxNoLabelNo_26" value="no"  name="question_26"  aria-label="..."></p>
                                             </div>
                                             </div>
 

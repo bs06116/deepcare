@@ -138,9 +138,9 @@
                                     <div class="row pe-4 pt-2" id="form">
                                         <div class="col-4 text-end form-group">
                                             <label class="control-label" > الجنس </label>
-                                            <select name="gender" class="form-select bg-light gender"
+                                            <select name="gender" dir="ltr" class="form-select bg-light gender"
                                                 aria-label="Default select example">
-                                                <option value="male">الذكر</option>
+                                                <option value="male" class="text-start">الذكر</option>
                                                 <option value="female">أنثى</option>
                                                 <
                                             </select>
@@ -152,7 +152,7 @@
                                         </div>
                                         <div class="col-4 text-end pe-4 form-group">
                                             <label class="control-label"> الحالة الاجتماعية </label>
-                                            <select class="form-select bg-light" name="social_status"
+                                            <select class="form-select bg-light" dir="ltr" name="social_status"
                                                 aria-label="Default select example">
                                                 <option selected> متزوج/ة  </option>
 
@@ -255,7 +255,7 @@
                                         <div class="row">
                                             <!-- <div class="col-2 text-center  questions">
                                                 <?php for ($k = 1; $k <= 25; $k++) { if ($k==2) { ?> <p class="p">
-                                                    </p><br>
+                                                    </p>
                                                     <?php } else { ?>
                                                     <p><input <?php if($k == 25) {?> style="display:none" <?php }?> class="form-check-input  fs-4 " type="checkbox"
                                                             id="checkboxNoLabelNo_<?php echo $k; ?>"
@@ -319,7 +319,7 @@
                                             </div> -->
                                             <!-- <div class="col-2 text-center questions">
                                                 <?php for ($m = 1; $m <= 25; $m++) { if ($m==2) { ?> <p class="p">
-                                                    </p><br>
+                                                    </p>
                                                     <?php } else { ?>
                                                     <p><input <?php if($m == 25) {?> style="display:none" <?php }?> class="form-check-input  fs-4 " type="checkbox"
                                                             id="checkboxNoLabelYes_<?php echo $m; ?>"

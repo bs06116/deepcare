@@ -1059,7 +1059,7 @@
             <div class="row text-white py-3 text-center">
             <div class="col-3">
             <p>Follow Me:</p>
-            <a href="#" style="margin-right:10px; font-size:17px"> <i class="fab fa-snapchat-ghost"  style="color:yellow; margin-left:3px"></i></a>
+            <a href="https://www.snapchat.com/add/deep_caree" style="margin-right:10px; font-size:17px"> <i class="fab fa-snapchat-ghost"  style="color:yellow; margin-left:3px"></i></a>
             <a href="https://www.instagram.com/deep_caree/" style="margin-right:10px; font-size:17px"><i class="fab fa-instagram" style="color:#E1306C"></i></a>
             <a href="https://mobile.twitter.com/deep_caree" style="margin-right:10px; font-size:17px"><i class="fab fa-twitter"></i></a>
             </div>

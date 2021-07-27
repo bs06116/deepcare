@@ -1057,8 +1057,14 @@
     <section class="footer">
         <div class="container">
             <div class="row text-white py-3 text-center">
-                <div class="col-6">
-                    <p class="fw-bolder">920004309
+            <div class="col-3">
+            <p>Follow Me:</p>
+            <a href="#" style="margin-right:10px; font-size:17px"> <i class="fab fa-snapchat-ghost"  style="color:yellow; margin-left:3px"></i></a>
+            <a href="https://www.instagram.com/deep_caree/" style="margin-right:10px; font-size:17px"><i class="fab fa-instagram" style="color:#E1306C"></i></a>
+            <a href="https://mobile.twitter.com/deep_caree" style="margin-right:10px; font-size:17px"><i class="fab fa-twitter"></i></a>
+            </div>
+                <div class="col-3">
+                    <p class="fw-bolder"><a href="tel:0536505022"> 0536505022</a>
                         <span class="fa fa-phone" aria-hidden="true"></span>
                     </p>
                 </div>

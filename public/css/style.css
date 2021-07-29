@@ -102,7 +102,7 @@
     /* top: 560% !important; */
 }
 .footer span {
-    width: 31px;
+    
     background-color: #9370db;
     padding: 9px;
     border-radius: 50%;
@@ -206,6 +206,7 @@
     }
 
     .footer {
+        font-size: 9px ;
         /* position: fixed !important; */
         width: 100%;
         /* top: 430% !important; */
@@ -217,6 +218,9 @@
     }
     .inp-field{
         margin-left: 100px;
+    }
+    .footer span{
+        width: 31px;
     }
 }
 @media (min-width: 321px) {
@@ -242,6 +246,7 @@
     }
 
     .footer {
+        font-size: 9px;
         /* position: fixed !important; */
         width: 100%;
         /* top: 392% !important; */
@@ -253,6 +258,9 @@
     }
     .inp-field{
         margin-left: 145px;
+    }
+    .footer span{
+        width: 31px;
     }
 }
 @media (min-width: 376px) {
@@ -278,6 +286,7 @@
     }
 
     .footer {
+        font-size: 9px;
         /* position: fixed !important; */
         width: 100%;
         /* top: 389% !important; */
@@ -289,6 +298,9 @@
     }
     .inp-field{
         margin-left: 185px;
+    }
+    .footer span{
+        width: 31px;
     }
 }
 @media (min-width: 425px) {
@@ -321,6 +333,7 @@
     }
 
     .footer {
+        font-size: 13px;
         /* position: fixed !important; */
         width: 100%;
         /* top: 369% !important; */
@@ -332,6 +345,9 @@
     }
     .inp-field{
         margin-left: 185px;
+    }
+    .footer span{
+        width: 31px;
     }
 }
 @media (min-width: 576px) {
@@ -361,6 +377,7 @@
     }
 
     .footer {
+        font-size: 13px;
         /* position: fixed !important; */
         width: 100%;
         /* top: 339% !important; */
@@ -372,6 +389,9 @@
     }
     .inp-field{
         margin-left: 430px;
+    }
+    .footer span{
+        width: 31px;
     }
 }
 @media (min-width: 768px) {
@@ -401,6 +421,7 @@
     }
 
     .footer {
+        font-size: 14px;
         /* position: fixed !important; */
         width: 100%;
         /* top: 333% !important; */
@@ -409,6 +430,9 @@
         position: absolute !important;
         top: 135% !important;
         border-radius: 12px !important;
+    }
+    .footer span{
+        width: 31px;
     }
     
 }
@@ -439,6 +463,7 @@
     }
 
     .footer {
+        font-size: 14px;
         /* position: fixed !important; */
         width: 100%;
         /* top: 338% !important; */
@@ -447,6 +472,9 @@
         position: absolute !important;
         top: 140% !important;
         border-radius: 12px !important;
+    }
+    .footer span{
+        width: 31px;
     }
 }
 @media (min-width: 1024px) {
@@ -476,6 +504,7 @@
     }
 
     .footer {
+        font-size: 15px;
         /* position: fixed !important; */
         width: 100%;
         bottom: 0px;
@@ -488,6 +517,9 @@
     }
     .inp-field{
         margin-left: 630px;
+    }
+    .footer span{
+        width: 31px;
     }
 }
 @media (min-width: 1440px) {
@@ -517,6 +549,7 @@
     }
 
     .footer {
+        font-size: 20px;
         /* position: fixed !important; */
         width: 100%;
         /* top: 298% !important; */
@@ -529,6 +562,9 @@
     .inp-field{
         margin-left: 798px;
         margin-bottom: 1px;
+    }
+    .footer span{
+        width: 40px;
     }
 }
 .message {

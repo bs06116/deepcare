@@ -1057,21 +1057,43 @@
     <section class="footer">
         <div class="container">
             <div class="row text-white py-3 text-center">
-            <div class="col-3">
+            <div class="col-4">
             <p>Follow Me:</p>
             <a href="https://www.snapchat.com/add/deep_caree"  > <i class="fab fa-snapchat-ghost"  style="color:yellow; margin-left:3px"></i></a>
             <a href="https://www.instagram.com/deep_caree/" style="margin-left:6px; "><i class="fab fa-instagram" style="color:#E1306C"></i></a>
             <a href="https://mobile.twitter.com/deep_caree" style="margin-left:6px; "><i class="fab fa-twitter"></i></a>
             </div>
-                <div class="col-3">
-                    <p class="fw-bolder"><a href="tel:0536505022"> 0536505022</a>
-                        <span class="fa fa-phone" aria-hidden="true"></span>
+                
+                <div class="col-8 ">
+                <div class="row footer-d1">
+                <div class="col-6 f1" >
+                <div class="row">
+                <div class="col-10">
+                <p class="fw-bolder"> المملكة العربية السعودية-الرياض-حي الملقا-طريق أنس بن مالك
+                        
                     </p>
                 </div>
-                <div class="col-6 ">
-                    <p class="fw-bolder"> المملكة العربية السعودية-الرياض-حي الملقا-طريق أنس بن مالك
-                        <span class="fa fa-map-marker ms-2 pe-2" aria-hidden="true"></span>
+                <div class="col-2">
+                <span class="fa fa-map-marker ms-2 pe-2" aria-hidden="true"></span>
+                </div>
+                </div>
+                
+                </div>
+                <div class="col-6 text-right f1">
+                <div class="row">
+                <div class="col-10">
+                <p class="fw-bolder" ><a href="tel:0536505022" style="color:white !important"> 0536505022</a>
+                        
                     </p>
+                </div>
+                <div class="col-2">
+                <span class="fa fa-phone" aria-hidden="true"></span>
+                </div>
+                </div>
+                    
+                </div>
+                </div>
+                    
                 </div>
             </div>
         </div>

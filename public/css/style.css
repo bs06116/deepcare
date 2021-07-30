@@ -206,7 +206,7 @@
     }
 
     .footer {
-        font-size: 10px ;
+        font-size: 8px ;
         /* position: fixed !important; */
         width: 100%;
         /* top: 430% !important; */
@@ -220,7 +220,7 @@
         display: block !important;
     }
     .footer-d1 .f1{
-        margin-left: 60px !important;
+        margin-left: 80px !important;
     }
     .form2 {
         position: absolute !important;
@@ -229,6 +229,9 @@
     }
     .inp-field{
         margin-left: 100px;
+    }
+    .f-icon{
+        font-size: 13px !important;
     }
     
 }
@@ -255,7 +258,7 @@
     }
 
     .footer {
-        font-size: 12px;
+        font-size: 10px;
         /* position: fixed !important; */
         width: 100%;
         /* top: 392% !important; */
@@ -265,7 +268,7 @@
         width: 25px;
     }
     .footer-d1 .f1{
-        margin-left: 60px !important;
+        margin-left: 90px !important;
     }
     .footer-d1{
         margin-right: 0px !important;
@@ -278,6 +281,9 @@
     }
     .inp-field{
         margin-left: 145px;
+    }
+    .f-icon{
+        font-size: 13px !important;
     }
     
 }
@@ -304,7 +310,7 @@
     }
 
     .footer {
-        font-size: 12px;
+        font-size: 11px;
         /* position: fixed !important; */
         width: 100%;
         /* top: 389% !important; */
@@ -314,7 +320,7 @@
         width: 25px;
     }
     .footer-d1 .f1{
-        margin-left: 60px !important;
+        margin-left: 90px !important;
     }
     .footer-d1{
         margin-right: 0px !important;
@@ -327,6 +333,9 @@
     }
     .inp-field{
         margin-left: 185px;
+    }
+    .f-icon{
+        font-size: 13px !important;
     }
    
 }
@@ -360,7 +369,7 @@
     }
 
     .footer {
-        font-size: 13px;
+        font-size: 11px;
         /* position: fixed !important; */
         width: 100%;
         /* top: 369% !important; */
@@ -370,7 +379,7 @@
         width: 26px;
     }
     .footer-d1 .f1{
-        margin-left: 90px !important;
+        margin-left: 115px !important;
     }
     .form2 {
         position: absolute !important;
@@ -379,6 +388,9 @@
     }
     .inp-field{
         margin-left: 185px;
+    }
+    .f-icon{
+        font-size: 15px !important;
     }
    
 }
@@ -409,7 +421,7 @@
     }
 
     .footer {
-        font-size: 13px;
+        font-size: 11px;
         /* position: fixed !important; */
         width: 100%;
         /* top: 339% !important; */
@@ -419,7 +431,7 @@
         width: 26px;
     }
     .footer-d1 .f1{
-        margin-left: 90px !important;
+        margin-left: 115px !important;
     }
     .form2 {
         position: absolute !important;
@@ -429,7 +441,9 @@
     .inp-field{
         margin-left: 430px;
     }
-   
+    .f-icon{
+        font-size: 15px !important;
+    }
     
 }
 @media (min-width: 768px) {
@@ -469,7 +483,7 @@
         width: 30px;
     }
     .footer-d1 .f1{
-        margin-left: 200px !important;
+        margin-left: 240px !important;
     }
     
     .form2 {
@@ -477,7 +491,9 @@
         top: 135% !important;
         border-radius: 12px !important;
     }
-   
+    .f-icon{
+        font-size: 16px !important;
+    }
    
 }
 @media (min-width: 992px) {
@@ -517,14 +533,16 @@
         width: 30px;
     }
     .footer-d1 .f1{
-        margin-left: 200px !important;
+        margin-left: 250px !important;
     }
     .form2 {
         position: absolute !important;
         top: 140% !important;
         border-radius: 12px !important;
     }
-   
+    .f-icon{
+        font-size: 16px !important;
+    }
     
 }
 @media (min-width: 1024px) {
@@ -565,7 +583,7 @@
         width: 30px;
     }
     .footer-d1 .f1{
-        margin-left: 300px !important;
+        margin-left: 340px !important;
     }
     .form2 {
         position: absolute !important;
@@ -575,7 +593,9 @@
     .inp-field{
         margin-left: 630px;
     }
-   
+    .f-icon{
+        font-size: 16px !important;
+    }
     
 }
 @media (min-width: 1440px) {
@@ -605,7 +625,7 @@
     }
 
     .footer {
-        font-size: 20px;
+        font-size: 18px;
         /* position: fixed !important; */
         width: 100%;
         /* top: 298% !important; */
@@ -613,6 +633,9 @@
     .footer span{
         padding: 10px;
         width: 26px;
+    }
+    .footer-d1 .f1{
+        margin-left: 434px !important;
     }
     .form2 {
         position: absolute !important;
@@ -625,6 +648,9 @@
     }
     .footer span{
         width: 40px;
+    }
+    .f-icon{
+        font-size: 22px !important;
     }
 }
 .message {

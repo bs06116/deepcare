@@ -1057,14 +1057,14 @@
     <section class="footer">
         <div class="container">
             <div class="row text-white py-3 text-center">
-            <div class="col-4">
+            <div class="col-3">
             <p>Follow Me:</p>
-            <a href="https://www.snapchat.com/add/deep_caree"  > <i class="fab fa-snapchat-ghost"  style="color:yellow; margin-left:3px"></i></a>
-            <a href="https://www.instagram.com/deep_caree/" style="margin-left:6px; "><i class="fab fa-instagram" style="color:#E1306C"></i></a>
-            <a href="https://mobile.twitter.com/deep_caree" style="margin-left:6px; "><i class="fab fa-twitter"></i></a>
+            <a href="https://www.snapchat.com/add/deep_caree"  > <i class="fab fa-snapchat-ghost f-icon"  style="color:yellow; "></i></a>
+            <a href="https://www.instagram.com/deep_caree/" style="margin-left:6px; "><i class="fab fa-instagram f-icon" style="color:#E1306C"></i></a>
+            <a href="https://mobile.twitter.com/deep_caree" style="margin-left:6px; "><i class="fab fa-twitter f-icon"></i></a>
             </div>
                 
-                <div class="col-8 ">
+                <div class="col-9 ">
                 <div class="row footer-d1">
                 <div class="col-6 f1" >
                 <div class="row">

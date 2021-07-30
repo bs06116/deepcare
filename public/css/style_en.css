@@ -186,6 +186,11 @@
         /* top: 200% !important; */
     }
 }
+@media(max-width: 291px){
+    .footer{
+        font-size: 7px !important;
+    }
+}
 @media (max-width: 320px) {
     #div1 {
         position: absolute !important;

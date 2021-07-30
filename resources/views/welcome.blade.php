@@ -1079,7 +1079,7 @@
                 </div>
                 
                 </div>
-                <div class="col-6 text-right f1">
+                <div class="col-6  f1">
                 <div class="row">
                 <div class="col-10">
                 <p class="fw-bolder" ><a href="tel:0536505022" style="color:white !important"> 0536505022</a>
